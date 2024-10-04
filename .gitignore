@@ -1,0 +1,6 @@
+.env
+secrets.toml
+extract_fixtures.py
+extract_teams.py
+extract_leagues.py
+venv/
