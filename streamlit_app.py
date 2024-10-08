@@ -9,8 +9,9 @@ from streamlit_extras.metric_cards import style_metric_cards
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
 
-def highlight_home_wins_history(s):
-    return ['background-color: #D7EED7']*len(s) if s.Result == 'H' else ['background-color: #FFCCCB']*len(s)
+def result_colour(val):
+    color = '#D7EED7' if val == 'H' else '#FFCCCB'
+    return f"color: {color}"
 
 @st.cache_data
 def import_json_files_as_dataframe(folder_path):
@@ -72,6 +73,8 @@ def upcoming_home_wins_ui():
     filtered_df = dataframe_explorer(dataframe, case=False)
     st.markdown('##')
 
+    filtered_df.sort_values(by='Date', ascending=True, inplace=True)
+
     st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
 
 
@@ -129,7 +132,28 @@ def home_wins_history_ui():
 
     style_metric_cards()
 
-    st.dataframe(filtered_df.style.apply(highlight_home_wins_history, axis=1), use_container_width=True, height=600, hide_index=True)
+    filtered_df.sort_values(by='Date', ascending=False, inplace=True)
+    
+    
+    def color_result(row):
+        if row['Result'] == 'H':
+            return ['background-color: #D7EED7'] * len(row)
+        elif row['Result'] == 'D':
+            return ['background-color: #FFCCCB'] * len(row)
+        elif row['Result'] == 'A':
+            return ['background-color: #FFCCCB'] * len(row)
+        return [''] * len(row)
+
+    styled_df = filtered_df.style.apply(color_result, axis=1)
+    styled_df = styled_df.format({
+        'Home odd': '{:.2f}',
+        'Draw odd': '{:.2f}',
+        'Away odd': '{:.2f}',
+        'Home goals': '{:.0f}',
+        'Away goals': '{:.0f}'
+    })
+
+    st.dataframe(styled_df, use_container_width=True, height=600, hide_index=True)
 
 st.set_page_config(layout="wide")
 home_wins_page = st.Page(upcoming_home_wins_ui, title="Home wins")
