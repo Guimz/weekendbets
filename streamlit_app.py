@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import json
+from datetime import date
 import streamlit as st
 from datetime import datetime, timezone
 from streamlit_extras.dataframe_explorer import dataframe_explorer
@@ -14,7 +15,7 @@ def result_colour(val):
     return f"color: {color}"
 
 @st.cache_data
-def import_json_files_as_dataframe(folder_path):
+def import_json_files_as_dataframe(folder_path, day):
     dataframes = []
     for filename in os.listdir(folder_path):
         if filename.endswith(".json"):
@@ -41,8 +42,8 @@ def upcoming_home_wins_ui():
              "If you want to see the history of home wins, you can go to the 'Home wins history' page.")
 
     st.markdown("---")
-
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds')
+    day = date.today()
+    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
@@ -80,8 +81,9 @@ def upcoming_home_wins_ui():
 
 def home_wins_history_ui():
     st.header("Home wins history")
-
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds')
+    
+    day = date.today()
+    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
