@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":1048575,
+        "Date":"2023-07-28T18:30:00+00:00",
+        "League id":79,
+        "Season":2023,
+        "Home id":175,
+        "Away id":174,
+        "Home goals":5.0,
+        "Away goals":3.0,
+        "Home team":"Hamburger SV",
+        "Away team":"FC Schalke 04",
+        "League":"2. Bundesliga",
+        "Home odd":"2.38",
+        "Draw odd":"3.75",
+        "Away odd":"2.7"
+    },
+    {
+        "Fixture":1038421,
+        "Date":"2023-07-28T18:45:00+00:00",
+        "League id":144,
+        "Season":2023,
+        "Home id":1393,
+        "Away id":554,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Union St. Gilloise",
+        "Away team":"Anderlecht",
+        "League":"Jupiler Pro League",
+        "Home odd":"2.1",
+        "Draw odd":"3.3",
+        "Away odd":"3.2"
+    }
+]

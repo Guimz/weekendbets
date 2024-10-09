@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":216665,
+        "Date":"2020-02-10T16:00:00+00:00",
+        "League id":197,
+        "Season":2019,
+        "Home id":949,
+        "Away id":2110,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Panetolikos",
+        "Away team":"Volos NFC",
+        "League":"Super League 1",
+        "Home odd":"1.85",
+        "Draw odd":"3.5",
+        "Away odd":"4.2"
+    },
+    {
+        "Fixture":209402,
+        "Date":"2020-02-10T19:30:00+00:00",
+        "League id":79,
+        "Season":2019,
+        "Home id":191,
+        "Away id":186,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Holstein Kiel",
+        "Away team":"FC St. Pauli",
+        "League":"2. Bundesliga",
+        "Home odd":"1.9",
+        "Draw odd":"3.6",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":158030,
+        "Date":"2020-02-10T19:45:00+00:00",
+        "League id":62,
+        "Season":2019,
+        "Home id":116,
+        "Away id":101,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Lens",
+        "Away team":"Grenoble",
+        "League":"Ligue 2",
+        "Home odd":"1.66",
+        "Draw odd":"3.5",
+        "Away odd":"5.5"
+    }
+]

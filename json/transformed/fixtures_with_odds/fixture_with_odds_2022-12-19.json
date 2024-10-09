@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":903718,
+        "Date":"2022-12-19T19:30:00+00:00",
+        "League id":136,
+        "Season":2022,
+        "Home id":524,
+        "Away id":517,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Perugia",
+        "Away team":"Venezia",
+        "League":"Serie B",
+        "Home odd":"2.38",
+        "Draw odd":"3.0",
+        "Away odd":"3.0"
+    },
+    {
+        "Fixture":878544,
+        "Date":"2022-12-19T20:00:00+00:00",
+        "League id":141,
+        "Season":2022,
+        "Home id":537,
+        "Away id":732,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Leganes",
+        "Away team":"Zaragoza",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.45",
+        "Draw odd":"3.0",
+        "Away odd":"3.3"
+    },
+    {
+        "Fixture":880994,
+        "Date":"2022-12-19T20:00:00+00:00",
+        "League id":40,
+        "Season":2022,
+        "Home id":61,
+        "Away id":62,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Wigan",
+        "Away team":"Sheffield Utd",
+        "League":"Championship",
+        "Home odd":"3.8",
+        "Draw odd":"3.3",
+        "Away odd":"2.05"
+    }
+]

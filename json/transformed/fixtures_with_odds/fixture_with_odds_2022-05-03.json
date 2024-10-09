@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":717180,
+        "Date":"2022-05-03T18:00:00+00:00",
+        "League id":40,
+        "Season":2021,
+        "Home id":35,
+        "Away id":65,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Bournemouth",
+        "Away team":"Nottingham Forest",
+        "League":"Championship",
+        "Home odd":"2.25",
+        "Draw odd":"3.4",
+        "Away odd":"3.25"
+    }
+]

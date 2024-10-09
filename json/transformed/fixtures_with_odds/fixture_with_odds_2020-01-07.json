@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":168132,
+        "Date":"2020-01-07T19:45:00+00:00",
+        "League id":41,
+        "Season":2019,
+        "Home id":1354,
+        "Away id":1352,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Doncaster",
+        "Away team":"Shrewsbury",
+        "League":"League One",
+        "Home odd":"2.3",
+        "Draw odd":"3.4",
+        "Away odd":"3.4"
+    },
+    {
+        "Fixture":211544,
+        "Date":"2020-01-07T19:45:00+00:00",
+        "League id":43,
+        "Season":2019,
+        "Home id":1366,
+        "Away id":1822,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Hartlepool",
+        "Away team":"Eastleigh",
+        "League":"National League",
+        "Home odd":"2.05",
+        "Draw odd":"3.6",
+        "Away odd":"3.3"
+    },
+    {
+        "Fixture":214643,
+        "Date":"2020-01-07T20:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":732,
+        "Away id":731,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Zaragoza",
+        "Away team":"Sporting Gijon",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"1.7",
+        "Draw odd":"3.6",
+        "Away odd":"5.0"
+    }
+]

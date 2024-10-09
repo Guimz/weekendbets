@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":1040235,
+        "Date":"2024-03-19T19:45:00+00:00",
+        "League id":42,
+        "Season":2023,
+        "Home id":1343,
+        "Away id":1376,
+        "Home goals":0.0,
+        "Away goals":3.0,
+        "Home team":"Bradford",
+        "Away team":"Notts County",
+        "League":"League Two",
+        "Home odd":"1.85",
+        "Draw odd":"3.75",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":1051345,
+        "Date":"2024-03-19T19:45:00+00:00",
+        "League id":183,
+        "Season":2023,
+        "Home id":6773,
+        "Away id":1391,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Kelty Hearts",
+        "Away team":"Alloa Athletic",
+        "League":"League One",
+        "Home odd":"3.5",
+        "Draw odd":"3.6",
+        "Away odd":"1.91"
+    },
+    {
+        "Fixture":1056045,
+        "Date":"2024-03-19T19:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":1369,
+        "Away id":1822,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Barnet",
+        "Away team":"Eastleigh",
+        "League":"National League",
+        "Home odd":"1.29",
+        "Draw odd":"5.5",
+        "Away odd":"8.0"
+    }
+]

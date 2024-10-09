@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":592305,
+        "Date":"2021-01-01T17:30:00+00:00",
+        "League id":39,
+        "Season":2020,
+        "Home id":45,
+        "Away id":48,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Everton",
+        "Away team":"West Ham",
+        "League":"Premier League",
+        "Home odd":"2.1",
+        "Draw odd":"3.5",
+        "Away odd":"3.5"
+    },
+    {
+        "Fixture":593151,
+        "Date":"2021-01-01T17:30:00+00:00",
+        "League id":40,
+        "Season":2020,
+        "Home id":74,
+        "Away id":69,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Sheffield Wednesday",
+        "Away team":"Derby",
+        "League":"Championship",
+        "Home odd":"3.4",
+        "Draw odd":"3.1",
+        "Away odd":"2.25"
+    },
+    {
+        "Fixture":592306,
+        "Date":"2021-01-01T20:00:00+00:00",
+        "League id":39,
+        "Season":2020,
+        "Home id":33,
+        "Away id":66,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Manchester United",
+        "Away team":"Aston Villa",
+        "League":"Premier League",
+        "Home odd":"1.72",
+        "Draw odd":"4.2",
+        "Away odd":"4.2"
+    }
+]

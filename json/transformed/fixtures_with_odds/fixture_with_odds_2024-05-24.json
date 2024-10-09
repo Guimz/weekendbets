@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "Fixture":1074976,
+        "Date":"2024-05-24T17:00:00+00:00",
+        "League id":203,
+        "Season":2023,
+        "Home id":996,
+        "Away id":1005,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Alanyaspor",
+        "Away team":"Antalyaspor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"1.67",
+        "Draw odd":"4.0",
+        "Away odd":"4.75"
+    },
+    {
+        "Fixture":1052627,
+        "Date":"2024-05-24T18:45:00+00:00",
+        "League id":135,
+        "Season":2023,
+        "Home id":495,
+        "Away id":500,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Genoa",
+        "Away team":"Bologna",
+        "League":"Serie A",
+        "Home odd":"3.4",
+        "Draw odd":"3.4",
+        "Away odd":"2.15"
+    },
+    {
+        "Fixture":1038325,
+        "Date":"2024-05-24T19:00:00+00:00",
+        "League id":140,
+        "Season":2023,
+        "Home id":547,
+        "Away id":715,
+        "Home goals":7.0,
+        "Away goals":0.0,
+        "Home team":"Girona",
+        "Away team":"Granada CF",
+        "League":"La Liga",
+        "Home odd":"1.22",
+        "Draw odd":"6.5",
+        "Away odd":"12.0"
+    }
+]

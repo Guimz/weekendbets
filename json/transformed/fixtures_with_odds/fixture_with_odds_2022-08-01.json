@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":871885,
+        "Date":"2022-08-01T18:45:00+00:00",
+        "League id":62,
+        "Season":2022,
+        "Home id":115,
+        "Away id":114,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Sochaux",
+        "Away team":"Paris FC",
+        "League":"Ligue 2",
+        "Home odd":"2.0",
+        "Draw odd":"3.2",
+        "Away odd":"3.6"
+    },
+    {
+        "Fixture":874682,
+        "Date":"2022-08-01T19:00:00+00:00",
+        "League id":40,
+        "Season":2022,
+        "Home id":38,
+        "Away id":62,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Watford",
+        "Away team":"Sheffield Utd",
+        "League":"Championship",
+        "Home odd":"2.3",
+        "Draw odd":"3.25",
+        "Away odd":"3.25"
+    }
+]

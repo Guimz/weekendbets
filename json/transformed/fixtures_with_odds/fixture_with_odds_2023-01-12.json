@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":868009,
+        "Date":"2023-01-12T20:00:00+00:00",
+        "League id":39,
+        "Season":2022,
+        "Home id":36,
+        "Away id":49,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Fulham",
+        "Away team":"Chelsea",
+        "League":"Premier League",
+        "Home odd":"3.3",
+        "Draw odd":"3.5",
+        "Away odd":"2.15"
+    }
+]

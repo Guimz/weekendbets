@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":888538,
+        "Date":"2023-04-12T18:45:00+00:00",
+        "League id":43,
+        "Season":2022,
+        "Home id":1822,
+        "Away id":1823,
+        "Home goals":2.0,
+        "Away goals":5.0,
+        "Home team":"Eastleigh",
+        "Away team":"Gateshead",
+        "League":"National League",
+        "Home odd":"2.5",
+        "Draw odd":"3.2",
+        "Away odd":"2.88"
+    }
+]

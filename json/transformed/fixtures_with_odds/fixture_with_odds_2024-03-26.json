@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":1055971,
+        "Date":"2024-03-26T19:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":4700,
+        "Away id":8663,
+        "Home goals":4.0,
+        "Away goals":1.0,
+        "Home team":"Altrincham",
+        "Away team":"Wealdstone",
+        "League":"National League",
+        "Home odd":"1.8",
+        "Draw odd":"3.8",
+        "Away odd":"4.2"
+    },
+    {
+        "Fixture":1056036,
+        "Date":"2024-03-26T19:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":1823,
+        "Away id":1366,
+        "Home goals":7.0,
+        "Away goals":1.0,
+        "Home team":"Gateshead",
+        "Away team":"Hartlepool",
+        "League":"National League",
+        "Home odd":"1.8",
+        "Draw odd":"4.0",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":1056112,
+        "Date":"2024-03-26T19:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":1834,
+        "Away id":1341,
+        "Home goals":0.0,
+        "Away goals":3.0,
+        "Home team":"Solihull Moors",
+        "Away team":"Southend",
+        "League":"National League",
+        "Home odd":"2.8",
+        "Draw odd":"3.4",
+        "Away odd":"2.4"
+    }
+]

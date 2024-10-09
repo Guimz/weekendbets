@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":1035430,
+        "Date":"2024-02-21T19:30:00+00:00",
+        "League id":39,
+        "Season":2023,
+        "Home id":40,
+        "Away id":1359,
+        "Home goals":4.0,
+        "Away goals":1.0,
+        "Home team":"Liverpool",
+        "Away team":"Luton",
+        "League":"Premier League",
+        "Home odd":"1.2",
+        "Draw odd":"7.0",
+        "Away odd":"13.0"
+    }
+]

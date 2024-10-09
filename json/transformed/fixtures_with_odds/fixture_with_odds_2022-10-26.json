@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":875654,
+        "Date":"2022-10-26T19:00:00+00:00",
+        "League id":41,
+        "Season":2022,
+        "Home id":74,
+        "Away id":1334,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Sheffield Wednesday",
+        "Away team":"Bristol Rovers",
+        "League":"League One",
+        "Home odd":"1.5",
+        "Draw odd":"4.33",
+        "Away odd":"6.5"
+    }
+]

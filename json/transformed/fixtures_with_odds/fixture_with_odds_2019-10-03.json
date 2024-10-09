@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":214499,
+        "Date":"2019-10-03T17:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":731,
+        "Away id":723,
+        "Home goals":4.0,
+        "Away goals":2.0,
+        "Home team":"Sporting Gijon",
+        "Away team":"Almeria",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.2",
+        "Draw odd":"3.2",
+        "Away odd":"3.4"
+    },
+    {
+        "Fixture":214500,
+        "Date":"2019-10-03T17:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":732,
+        "Away id":535,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Zaragoza",
+        "Away team":"Malaga",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.3",
+        "Draw odd":"3.2",
+        "Away odd":"3.1"
+    },
+    {
+        "Fixture":214493,
+        "Date":"2019-10-03T19:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":547,
+        "Away id":544,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Girona",
+        "Away team":"Deportivo La Coruna",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.1",
+        "Draw odd":"3.3",
+        "Away odd":"3.5"
+    }
+]

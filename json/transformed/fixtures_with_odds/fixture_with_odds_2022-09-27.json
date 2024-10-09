@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":876093,
+        "Date":"2022-09-27T18:45:00+00:00",
+        "League id":42,
+        "Season":2022,
+        "Home id":1365,
+        "Away id":1371,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Grimsby",
+        "Away team":"Carlisle",
+        "League":"League Two",
+        "Home odd":"2.0",
+        "Draw odd":"3.2",
+        "Away odd":"4.0"
+    }
+]

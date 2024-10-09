@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":585122,
+        "Date":"2020-11-09T19:30:00+00:00",
+        "League id":79,
+        "Season":2020,
+        "Home id":191,
+        "Away id":175,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Holstein Kiel",
+        "Away team":"Hamburger SV",
+        "League":"2. Bundesliga",
+        "Home odd":"2.9",
+        "Draw odd":"3.5",
+        "Away odd":"2.25"
+    },
+    {
+        "Fixture":606802,
+        "Date":"2020-11-09T20:00:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":547,
+        "Away id":534,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Girona",
+        "Away team":"Las Palmas",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.25",
+        "Draw odd":"3.1",
+        "Away odd":"3.4"
+    }
+]

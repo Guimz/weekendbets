@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":157843,
+        "Date":"2019-09-02T17:00:00+00:00",
+        "League id":62,
+        "Season":2019,
+        "Home id":114,
+        "Away id":1291,
+        "Home goals":0.0,
+        "Away goals":3.0,
+        "Home team":"Paris FC",
+        "Away team":"Chambly Thelle FC",
+        "League":"Ligue 2",
+        "Home odd":"2.3",
+        "Draw odd":"2.87",
+        "Away odd":"3.5"
+    },
+    {
+        "Fixture":209264,
+        "Date":"2019-09-02T18:30:00+00:00",
+        "League id":79,
+        "Season":2019,
+        "Home id":172,
+        "Away id":176,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"VfB Stuttgart",
+        "Away team":"Vfl Bochum",
+        "League":"2. Bundesliga",
+        "Home odd":"1.5",
+        "Draw odd":"4.33",
+        "Away odd":"6.0"
+    },
+    {
+        "Fixture":157847,
+        "Date":"2019-09-02T18:45:00+00:00",
+        "League id":62,
+        "Season":2019,
+        "Home id":101,
+        "Away id":116,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Grenoble",
+        "Away team":"Lens",
+        "League":"Ligue 2",
+        "Home odd":"3.5",
+        "Draw odd":"3.25",
+        "Away odd":"2.1"
+    }
+]

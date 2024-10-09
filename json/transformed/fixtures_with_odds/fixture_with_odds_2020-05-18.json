@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":209142,
+        "Date":"2020-05-18T18:30:00+00:00",
+        "League id":78,
+        "Season":2019,
+        "Home id":162,
+        "Away id":168,
+        "Home goals":1.0,
+        "Away goals":4.0,
+        "Home team":"Werder Bremen",
+        "Away team":"Bayer Leverkusen",
+        "League":"Bundesliga",
+        "Home odd":"4.75",
+        "Draw odd":"4.0",
+        "Away odd":"1.66"
+    }
+]

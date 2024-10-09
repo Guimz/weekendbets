@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":871483,
+        "Date":"2022-09-07T17:00:00+00:00",
+        "League id":61,
+        "Season":2022,
+        "Home id":97,
+        "Away id":80,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Lorient",
+        "Away team":"Lyon",
+        "League":"Ligue 1",
+        "Home odd":"4.5",
+        "Draw odd":"4.5",
+        "Away odd":"1.65"
+    }
+]

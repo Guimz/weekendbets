@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":1039349,
+        "Date":"2023-09-04T19:00:00+00:00",
+        "League id":41,
+        "Season":2023,
+        "Home id":1370,
+        "Away id":53,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Cambridge United",
+        "Away team":"Reading",
+        "League":"League One",
+        "Home odd":"2.4",
+        "Draw odd":"3.4",
+        "Away odd":"2.9"
+    }
+]

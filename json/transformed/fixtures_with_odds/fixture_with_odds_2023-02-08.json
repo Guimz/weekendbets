@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":868021,
+        "Date":"2023-02-08T20:00:00+00:00",
+        "League id":39,
+        "Season":2022,
+        "Home id":33,
+        "Away id":63,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Manchester United",
+        "Away team":"Leeds",
+        "League":"Premier League",
+        "Home odd":"1.45",
+        "Draw odd":"5.0",
+        "Away odd":"6.0"
+    }
+]

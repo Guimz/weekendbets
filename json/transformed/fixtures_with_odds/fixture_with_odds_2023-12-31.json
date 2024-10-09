@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":1035366,
+        "Date":"2023-12-31T14:00:00+00:00",
+        "League id":39,
+        "Season":2023,
+        "Home id":36,
+        "Away id":42,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Fulham",
+        "Away team":"Arsenal",
+        "League":"Premier League",
+        "Home odd":"5.25",
+        "Draw odd":"4.5",
+        "Away odd":"1.55"
+    },
+    {
+        "Fixture":1035371,
+        "Date":"2023-12-31T14:00:00+00:00",
+        "League id":39,
+        "Season":2023,
+        "Home id":47,
+        "Away id":35,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Tottenham",
+        "Away team":"Bournemouth",
+        "League":"Premier League",
+        "Home odd":"1.75",
+        "Draw odd":"4.2",
+        "Away odd":"4.0"
+    }
+]

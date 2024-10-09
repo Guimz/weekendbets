@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":709911,
+        "Date":"2021-11-09T19:30:00+00:00",
+        "League id":184,
+        "Season":2021,
+        "Home id":6784,
+        "Away id":6756,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Stenhousemuir",
+        "Away team":"Albion Rovers",
+        "League":"League Two",
+        "Home odd":"2.0",
+        "Draw odd":"3.75",
+        "Away odd":"3.1"
+    },
+    {
+        "Fixture":724972,
+        "Date":"2021-11-09T19:45:00+00:00",
+        "League id":43,
+        "Season":2021,
+        "Home id":1818,
+        "Away id":1837,
+        "Home goals":0.0,
+        "Away goals":5.0,
+        "Home team":"Aldershot Town",
+        "Away team":"Wrexham",
+        "League":"National League",
+        "Home odd":"3.6",
+        "Draw odd":"3.4",
+        "Away odd":"1.9"
+    }
+]

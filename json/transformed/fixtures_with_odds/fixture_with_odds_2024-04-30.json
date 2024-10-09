@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":1047949,
+        "Date":"2024-04-30T19:00:00+00:00",
+        "League id":40,
+        "Season":2023,
+        "Home id":1346,
+        "Away id":57,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Coventry",
+        "Away team":"Ipswich",
+        "League":"Championship",
+        "Home odd":"4.33",
+        "Draw odd":"4.2",
+        "Away odd":"1.7"
+    }
+]

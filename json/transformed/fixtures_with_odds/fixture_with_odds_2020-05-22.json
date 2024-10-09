@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":209454,
+        "Date":"2020-05-22T16:30:00+00:00",
+        "League id":79,
+        "Season":2019,
+        "Home id":171,
+        "Away id":190,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"FC Nurnberg",
+        "Away team":"Erzgebirge AUE",
+        "League":"2. Bundesliga",
+        "Home odd":"1.9",
+        "Draw odd":"3.6",
+        "Away odd":"3.75"
+    },
+    {
+        "Fixture":209456,
+        "Date":"2020-05-22T16:30:00+00:00",
+        "League id":79,
+        "Season":2019,
+        "Home id":180,
+        "Away id":1319,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"FC Heidenheim",
+        "Away team":"SV Wehen",
+        "League":"2. Bundesliga",
+        "Home odd":"1.75",
+        "Draw odd":"3.8",
+        "Away odd":"4.33"
+    },
+    {
+        "Fixture":209151,
+        "Date":"2020-05-22T18:30:00+00:00",
+        "League id":78,
+        "Season":2019,
+        "Home id":159,
+        "Away id":182,
+        "Home goals":4.0,
+        "Away goals":0.0,
+        "Home team":"Hertha Berlin",
+        "Away team":"Union Berlin",
+        "League":"Bundesliga",
+        "Home odd":"2.3",
+        "Draw odd":"3.4",
+        "Away odd":"3.0"
+    }
+]

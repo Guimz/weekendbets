@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":1035357,
+        "Date":"2023-12-28T19:30:00+00:00",
+        "League id":39,
+        "Season":2023,
+        "Home id":51,
+        "Away id":47,
+        "Home goals":4.0,
+        "Away goals":2.0,
+        "Home team":"Brighton",
+        "Away team":"Tottenham",
+        "League":"Premier League",
+        "Home odd":"2.5",
+        "Draw odd":"3.6",
+        "Away odd":"2.6"
+    },
+    {
+        "Fixture":1035355,
+        "Date":"2023-12-28T20:15:00+00:00",
+        "League id":39,
+        "Season":2023,
+        "Home id":42,
+        "Away id":48,
+        "Home goals":0.0,
+        "Away goals":2.0,
+        "Home team":"Arsenal",
+        "Away team":"West Ham",
+        "League":"Premier League",
+        "Home odd":"1.33",
+        "Draw odd":"5.5",
+        "Away odd":"7.5"
+    },
+    {
+        "Fixture":1063602,
+        "Date":"2023-12-28T20:15:00+00:00",
+        "League id":94,
+        "Season":2023,
+        "Home id":15130,
+        "Away id":240,
+        "Home goals":1.0,
+        "Away goals":4.0,
+        "Home team":"Estrela",
+        "Away team":"Arouca",
+        "League":"Primeira Liga",
+        "Home odd":"2.55",
+        "Draw odd":"3.3",
+        "Away odd":"2.7"
+    }
+]

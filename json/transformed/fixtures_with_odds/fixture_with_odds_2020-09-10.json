@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":571483,
+        "Date":"2020-09-10T19:00:00+00:00",
+        "League id":61,
+        "Season":2020,
+        "Home id":116,
+        "Away id":85,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Lens",
+        "Away team":"Paris Saint Germain",
+        "League":"Ligue 1",
+        "Home odd":"5.0",
+        "Draw odd":"4.0",
+        "Away odd":"1.65"
+    }
+]

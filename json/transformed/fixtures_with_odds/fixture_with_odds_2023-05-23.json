@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":878301,
+        "Date":"2023-05-23T17:30:00+00:00",
+        "League id":140,
+        "Season":2022,
+        "Home id":548,
+        "Away id":723,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Real Sociedad",
+        "Away team":"Almeria",
+        "League":"La Liga",
+        "Home odd":"1.36",
+        "Draw odd":"5.0",
+        "Away odd":"8.0"
+    },
+    {
+        "Fixture":878293,
+        "Date":"2023-05-23T17:30:00+00:00",
+        "League id":140,
+        "Season":2022,
+        "Home id":538,
+        "Away id":547,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Celta Vigo",
+        "Away team":"Girona",
+        "League":"La Liga",
+        "Home odd":"2.0",
+        "Draw odd":"3.5",
+        "Away odd":"3.75"
+    },
+    {
+        "Fixture":878298,
+        "Date":"2023-05-23T20:00:00+00:00",
+        "League id":140,
+        "Season":2022,
+        "Home id":720,
+        "Away id":529,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Valladolid",
+        "Away team":"Barcelona",
+        "League":"La Liga",
+        "Home odd":"3.6",
+        "Draw odd":"3.8",
+        "Away odd":"1.91"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":721694,
+        "Date":"2022-05-13T19:00:00+00:00",
+        "League id":141,
+        "Season":2021,
+        "Home id":9585,
+        "Away id":723,
+        "Home goals":0.0,
+        "Away goals":2.0,
+        "Home team":"Real Sociedad II",
+        "Away team":"Almeria",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"3.6",
+        "Draw odd":"3.6",
+        "Away odd":"2.0"
+    },
+    {
+        "Fixture":731575,
+        "Date":"2022-05-13T19:15:00+00:00",
+        "League id":94,
+        "Season":2021,
+        "Home id":234,
+        "Away id":211,
+        "Home goals":0.0,
+        "Away goals":2.0,
+        "Home team":"Pacos Ferreira",
+        "Away team":"Benfica",
+        "League":"Primeira Liga",
+        "Home odd":"5.0",
+        "Draw odd":"4.33",
+        "Away odd":"1.57"
+    }
+]

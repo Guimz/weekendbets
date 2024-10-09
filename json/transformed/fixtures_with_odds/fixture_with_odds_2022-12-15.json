@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":868780,
+        "Date":"2022-12-15T20:00:00+00:00",
+        "League id":179,
+        "Season":2022,
+        "Home id":257,
+        "Away id":249,
+        "Home goals":3.0,
+        "Away goals":2.0,
+        "Home team":"Rangers",
+        "Away team":"Hibernian",
+        "League":"Premiership",
+        "Home odd":"1.3",
+        "Draw odd":"5.25",
+        "Away odd":"9.0"
+    }
+]

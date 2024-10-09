@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":884673,
+        "Date":"2023-06-07T17:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":3574,
+        "Away id":1005,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Giresunspor",
+        "Away team":"Antalyaspor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"1.8",
+        "Draw odd":"3.75",
+        "Away odd":"3.6"
+    },
+    {
+        "Fixture":884678,
+        "Date":"2023-06-07T17:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":1010,
+        "Away id":3563,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Ankaragucu",
+        "Away team":"Adana Demirspor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"2.15",
+        "Draw odd":"4.0",
+        "Away odd":"2.7"
+    },
+    {
+        "Fixture":884680,
+        "Date":"2023-06-07T17:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":549,
+        "Away id":607,
+        "Home goals":3.0,
+        "Away goals":3.0,
+        "Home team":"Besiktas",
+        "Away team":"Konyaspor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"1.36",
+        "Draw odd":"5.5",
+        "Away odd":"6.5"
+    }
+]

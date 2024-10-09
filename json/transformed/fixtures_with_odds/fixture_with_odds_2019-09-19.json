@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":214460,
+        "Date":"2019-09-19T17:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":797,
+        "Away id":719,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Elche",
+        "Away team":"Tenerife",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.1",
+        "Draw odd":"3.0",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":214463,
+        "Date":"2019-09-19T20:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":534,
+        "Away id":731,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Las Palmas",
+        "Away team":"Sporting Gijon",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.6",
+        "Draw odd":"3.0",
+        "Away odd":"2.9"
+    }
+]

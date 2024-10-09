@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":605215,
+        "Date":"2020-12-31T13:00:00+00:00",
+        "League id":140,
+        "Season":2020,
+        "Home id":531,
+        "Away id":548,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Athletic Club",
+        "Away team":"Real Sociedad",
+        "League":"La Liga",
+        "Home odd":"3.0",
+        "Draw odd":"3.2",
+        "Away odd":"2.5"
+    },
+    {
+        "Fixture":605222,
+        "Date":"2020-12-31T15:15:00+00:00",
+        "League id":140,
+        "Season":2020,
+        "Home id":727,
+        "Away id":542,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Osasuna",
+        "Away team":"Alaves",
+        "League":"La Liga",
+        "Home odd":"2.35",
+        "Draw odd":"3.25",
+        "Away odd":"3.1"
+    }
+]

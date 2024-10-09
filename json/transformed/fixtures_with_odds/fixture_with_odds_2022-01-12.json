@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":755840,
+        "Date":"2022-01-12T15:15:00+00:00",
+        "League id":197,
+        "Season":2021,
+        "Home id":619,
+        "Away id":949,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"PAOK",
+        "Away team":"Panetolikos",
+        "League":"Super League 1",
+        "Home odd":"1.28",
+        "Draw odd":"5.75",
+        "Away odd":"10.0"
+    },
+    {
+        "Fixture":710734,
+        "Date":"2022-01-12T19:45:00+00:00",
+        "League id":39,
+        "Season":2021,
+        "Home id":48,
+        "Away id":71,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"West Ham",
+        "Away team":"Norwich",
+        "League":"Premier League",
+        "Home odd":"1.28",
+        "Draw odd":"5.5",
+        "Away odd":"10.0"
+    },
+    {
+        "Fixture":715732,
+        "Date":"2022-01-12T19:45:00+00:00",
+        "League id":41,
+        "Season":2021,
+        "Home id":1363,
+        "Away id":1335,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Crewe",
+        "Away team":"Charlton",
+        "League":"League One",
+        "Home odd":"3.75",
+        "Draw odd":"3.25",
+        "Away odd":"2.1"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":607025,
+        "Date":"2021-03-28T12:00:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":716,
+        "Away id":9593,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Lugo",
+        "Away team":"Sabadell",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.4",
+        "Draw odd":"3.0",
+        "Away odd":"3.2"
+    },
+    {
+        "Fixture":607022,
+        "Date":"2021-03-28T14:00:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":547,
+        "Away id":722,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Girona",
+        "Away team":"Albacete",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"1.85",
+        "Draw odd":"3.0",
+        "Away odd":"4.75"
+    },
+    {
+        "Fixture":607029,
+        "Date":"2021-03-28T19:30:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":719,
+        "Away id":534,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Tenerife",
+        "Away team":"Las Palmas",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.0",
+        "Draw odd":"3.1",
+        "Away odd":"4.2"
+    }
+]

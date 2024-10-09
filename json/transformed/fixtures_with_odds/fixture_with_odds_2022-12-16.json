@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":880983,
+        "Date":"2022-12-16T20:00:00+00:00",
+        "League id":40,
+        "Season":2022,
+        "Home id":54,
+        "Away id":53,
+        "Home goals":3.0,
+        "Away goals":2.0,
+        "Home team":"Birmingham",
+        "Away team":"Reading",
+        "League":"Championship",
+        "Home odd":"2.05",
+        "Draw odd":"3.2",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":878549,
+        "Date":"2022-12-16T20:00:00+00:00",
+        "League id":141,
+        "Season":2022,
+        "Home id":719,
+        "Away id":8157,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Tenerife",
+        "Away team":"FC Andorra",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.05",
+        "Draw odd":"3.0",
+        "Away odd":"4.2"
+    }
+]

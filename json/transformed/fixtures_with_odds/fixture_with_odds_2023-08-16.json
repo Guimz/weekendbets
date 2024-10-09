@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":1055622,
+        "Date":"2023-08-16T18:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":1830,
+        "Away id":1834,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Boreham Wood",
+        "Away team":"Solihull Moors",
+        "League":"National League",
+        "Home odd":"1.91",
+        "Draw odd":"3.3",
+        "Away odd":"3.6"
+    }
+]

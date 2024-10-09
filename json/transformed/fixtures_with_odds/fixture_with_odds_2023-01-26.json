@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":872384,
+        "Date":"2023-01-26T17:45:00+00:00",
+        "League id":88,
+        "Season":2022,
+        "Home id":202,
+        "Away id":420,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Groningen",
+        "Away team":"Cambuur",
+        "League":"Eredivisie",
+        "Home odd":"2.25",
+        "Draw odd":"3.5",
+        "Away odd":"3.1"
+    },
+    {
+        "Fixture":872385,
+        "Date":"2023-01-26T20:00:00+00:00",
+        "League id":88,
+        "Season":2022,
+        "Home id":194,
+        "Away id":416,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Ajax",
+        "Away team":"FC Volendam",
+        "League":"Eredivisie",
+        "Home odd":"1.13",
+        "Draw odd":"9.5",
+        "Away odd":"17.0"
+    },
+    {
+        "Fixture":898783,
+        "Date":"2023-01-26T20:15:00+00:00",
+        "League id":94,
+        "Season":2022,
+        "Home id":234,
+        "Away id":211,
+        "Home goals":0.0,
+        "Away goals":2.0,
+        "Home team":"Pacos Ferreira",
+        "Away team":"Benfica",
+        "League":"Primeira Liga",
+        "Home odd":"13.0",
+        "Draw odd":"6.5",
+        "Away odd":"1.2"
+    }
+]

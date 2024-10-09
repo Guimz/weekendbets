@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":569477,
+        "Date":"2020-08-12T18:45:00+00:00",
+        "League id":179,
+        "Season":2020,
+        "Home id":257,
+        "Away id":258,
+        "Home goals":3.0,
+        "Away goals":0.0,
+        "Home team":"Rangers",
+        "Away team":"ST Johnstone",
+        "League":"Premiership",
+        "Home odd":"1.2",
+        "Draw odd":"6.0",
+        "Away odd":"15.0"
+    },
+    {
+        "Fixture":569475,
+        "Date":"2020-08-12T18:45:00+00:00",
+        "League id":179,
+        "Season":2020,
+        "Home id":256,
+        "Away id":255,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Motherwell",
+        "Away team":"Livingston",
+        "League":"Premiership",
+        "Home odd":"2.05",
+        "Draw odd":"3.4",
+        "Away odd":"3.75"
+    },
+    {
+        "Fixture":569476,
+        "Date":"2020-08-12T18:45:00+00:00",
+        "League id":179,
+        "Season":2020,
+        "Home id":902,
+        "Away id":250,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Ross County",
+        "Away team":"Kilmarnock",
+        "League":"Premiership",
+        "Home odd":"3.0",
+        "Draw odd":"3.1",
+        "Away odd":"2.4"
+    }
+]

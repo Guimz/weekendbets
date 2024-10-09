@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":209463,
+        "Date":"2020-05-28T18:30:00+00:00",
+        "League id":79,
+        "Season":2019,
+        "Home id":172,
+        "Away id":175,
+        "Home goals":3.0,
+        "Away goals":2.0,
+        "Home team":"VfB Stuttgart",
+        "Away team":"Hamburger SV",
+        "League":"2. Bundesliga",
+        "Home odd":"2.15",
+        "Draw odd":"3.5",
+        "Away odd":"3.1"
+    }
+]

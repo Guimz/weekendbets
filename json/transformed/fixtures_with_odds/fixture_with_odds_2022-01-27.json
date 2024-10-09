@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":710245,
+        "Date":"2022-01-27T19:45:00+00:00",
+        "League id":144,
+        "Season":2021,
+        "Home id":569,
+        "Away id":1393,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Club Brugge KV",
+        "Away team":"Union St. Gilloise",
+        "League":"Jupiler Pro League",
+        "Home odd":"2.05",
+        "Draw odd":"3.6",
+        "Away odd":"3.4"
+    },
+    {
+        "Fixture":731439,
+        "Date":"2022-01-27T20:15:00+00:00",
+        "League id":94,
+        "Season":2021,
+        "Home id":230,
+        "Away id":240,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Estoril",
+        "Away team":"Arouca",
+        "League":"Primeira Liga",
+        "Home odd":"2.0",
+        "Draw odd":"3.3",
+        "Away odd":"3.8"
+    }
+]

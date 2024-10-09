@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":607008,
+        "Date":"2021-03-22T18:00:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":722,
+        "Away id":5262,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Albacete",
+        "Away team":"FC Cartagena",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.62",
+        "Draw odd":"2.9",
+        "Away odd":"2.87"
+    },
+    {
+        "Fixture":585288,
+        "Date":"2021-03-22T19:30:00+00:00",
+        "League id":79,
+        "Season":2020,
+        "Home id":158,
+        "Away id":176,
+        "Home goals":0.0,
+        "Away goals":3.0,
+        "Home team":"Fortuna Dusseldorf",
+        "Away team":"Vfl Bochum",
+        "League":"2. Bundesliga",
+        "Home odd":"2.4",
+        "Draw odd":"3.4",
+        "Away odd":"2.8"
+    },
+    {
+        "Fixture":607017,
+        "Date":"2021-03-22T20:00:00+00:00",
+        "League id":141,
+        "Season":2020,
+        "Home id":732,
+        "Away id":799,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Zaragoza",
+        "Away team":"Mirandes",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"2.45",
+        "Draw odd":"2.9",
+        "Away odd":"3.2"
+    }
+]

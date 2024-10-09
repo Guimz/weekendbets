@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":164464,
+        "Date":"2019-12-30T19:45:00+00:00",
+        "League id":40,
+        "Season":2019,
+        "Home id":69,
+        "Away id":1335,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Derby",
+        "Away team":"Charlton",
+        "League":"Championship",
+        "Home odd":"1.75",
+        "Draw odd":"3.9",
+        "Away odd":"4.5"
+    }
+]

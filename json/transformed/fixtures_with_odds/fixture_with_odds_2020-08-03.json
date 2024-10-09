@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":569465,
+        "Date":"2020-08-03T18:45:00+00:00",
+        "League id":179,
+        "Season":2020,
+        "Home id":902,
+        "Away id":256,
+        "Home goals":1.0,
+        "Away goals":0.0,
+        "Home team":"Ross County",
+        "Away team":"Motherwell",
+        "League":"Premiership",
+        "Home odd":"3.2",
+        "Draw odd":"3.4",
+        "Away odd":"2.2"
+    }
+]

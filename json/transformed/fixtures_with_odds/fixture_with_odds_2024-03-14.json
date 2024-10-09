@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":1040265,
+        "Date":"2024-03-14T20:00:00+00:00",
+        "League id":42,
+        "Season":2023,
+        "Home id":1844,
+        "Away id":4686,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Salford City",
+        "Away team":"Stockport County",
+        "League":"League Two",
+        "Home odd":"4.2",
+        "Draw odd":"3.5",
+        "Away odd":"1.91"
+    }
+]

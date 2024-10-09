@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":874910,
+        "Date":"2023-01-19T17:30:00+00:00",
+        "League id":144,
+        "Season":2022,
+        "Home id":631,
+        "Away id":736,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Gent",
+        "Away team":"Charleroi",
+        "League":"Jupiler Pro League",
+        "Home odd":"1.55",
+        "Draw odd":"4.2",
+        "Away odd":"5.25"
+    },
+    {
+        "Fixture":874914,
+        "Date":"2023-01-19T19:45:00+00:00",
+        "League id":144,
+        "Season":2022,
+        "Home id":735,
+        "Away id":569,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"St. Truiden",
+        "Away team":"Club Brugge KV",
+        "League":"Jupiler Pro League",
+        "Home odd":"3.5",
+        "Draw odd":"3.5",
+        "Away odd":"2.0"
+    },
+    {
+        "Fixture":868013,
+        "Date":"2023-01-19T20:00:00+00:00",
+        "League id":39,
+        "Season":2022,
+        "Home id":50,
+        "Away id":47,
+        "Home goals":4.0,
+        "Away goals":2.0,
+        "Home team":"Manchester City",
+        "Away team":"Tottenham",
+        "League":"Premier League",
+        "Home odd":"1.36",
+        "Draw odd":"5.0",
+        "Away odd":"8.5"
+    }
+]

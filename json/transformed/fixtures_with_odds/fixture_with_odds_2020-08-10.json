@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":581150,
+        "Date":"2020-08-10T17:00:00+00:00",
+        "League id":144,
+        "Season":2020,
+        "Home id":624,
+        "Away id":263,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Oostende",
+        "Away team":"Beerschot Wilrijk",
+        "League":"Jupiler Pro League",
+        "Home odd":"2.3",
+        "Draw odd":"3.4",
+        "Away odd":"3.0"
+    },
+    {
+        "Fixture":581149,
+        "Date":"2020-08-10T17:00:00+00:00",
+        "League id":144,
+        "Season":2020,
+        "Home id":260,
+        "Away id":739,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"OH Leuven",
+        "Away team":"AS Eupen",
+        "League":"Jupiler Pro League",
+        "Home odd":"2.3",
+        "Draw odd":"3.4",
+        "Away odd":"3.0"
+    }
+]

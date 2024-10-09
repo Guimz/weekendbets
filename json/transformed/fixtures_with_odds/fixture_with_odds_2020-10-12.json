@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":593858,
+        "Date":"2020-10-12T18:45:00+00:00",
+        "League id":42,
+        "Season":2020,
+        "Home id":1343,
+        "Away id":1842,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Bradford",
+        "Away team":"Harrogate Town",
+        "League":"League Two",
+        "Home odd":"2.37",
+        "Draw odd":"3.4",
+        "Away odd":"3.0"
+    },
+    {
+        "Fixture":625786,
+        "Date":"2020-10-12T18:45:00+00:00",
+        "League id":43,
+        "Season":2020,
+        "Home id":1837,
+        "Away id":1838,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Wrexham",
+        "Away team":"Maidenhead",
+        "League":"National League",
+        "Home odd":"1.44",
+        "Draw odd":"4.33",
+        "Away odd":"7.0"
+    }
+]

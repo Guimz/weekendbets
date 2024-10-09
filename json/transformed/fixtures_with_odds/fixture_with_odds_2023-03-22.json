@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":876311,
+        "Date":"2023-03-22T19:45:00+00:00",
+        "League id":42,
+        "Season":2022,
+        "Home id":1374,
+        "Away id":1365,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Mansfield Town",
+        "Away team":"Grimsby",
+        "League":"League Two",
+        "Home odd":"1.85",
+        "Draw odd":"3.4",
+        "Away odd":"4.5"
+    }
+]

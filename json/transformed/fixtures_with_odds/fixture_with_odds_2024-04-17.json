@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":1055978,
+        "Date":"2024-04-17T18:45:00+00:00",
+        "League id":43,
+        "Season":2023,
+        "Home id":1823,
+        "Away id":1818,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Gateshead",
+        "Away team":"Aldershot Town",
+        "League":"National League",
+        "Home odd":"1.7",
+        "Draw odd":"4.0",
+        "Away odd":"3.8"
+    },
+    {
+        "Fixture":1094607,
+        "Date":"2024-04-17T19:00:00+00:00",
+        "League id":179,
+        "Season":2023,
+        "Home id":253,
+        "Away id":257,
+        "Home goals":0.0,
+        "Away goals":0.0,
+        "Home team":"Dundee",
+        "Away team":"Rangers",
+        "League":"Premiership",
+        "Home odd":"9.0",
+        "Draw odd":"5.75",
+        "Away odd":"1.3"
+    }
+]

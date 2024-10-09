@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":581225,
+        "Date":"2020-12-03T16:00:00+00:00",
+        "League id":144,
+        "Season":2020,
+        "Home id":739,
+        "Away id":266,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"AS Eupen",
+        "Away team":"KV Mechelen",
+        "League":"Jupiler Pro League",
+        "Home odd":"2.45",
+        "Draw odd":"3.25",
+        "Away odd":"2.87"
+    }
+]

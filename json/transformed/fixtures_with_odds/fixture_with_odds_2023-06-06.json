@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":884679,
+        "Date":"2023-06-06T14:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":3589,
+        "Away id":1004,
+        "Home goals":3.0,
+        "Away goals":0.0,
+        "Home team":"Fatih Karag\u00fcmr\u00fck",
+        "Away team":"Kasimpasa",
+        "League":"S\u00fcper Lig",
+        "Home odd":"2.1",
+        "Draw odd":"4.0",
+        "Away odd":"2.8"
+    },
+    {
+        "Fixture":884681,
+        "Date":"2023-06-06T14:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":1002,
+        "Away id":1001,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Sivasspor",
+        "Away team":"Kayserispor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"1.65",
+        "Draw odd":"4.0",
+        "Away odd":"4.2"
+    },
+    {
+        "Fixture":884676,
+        "Date":"2023-06-06T17:00:00+00:00",
+        "League id":203,
+        "Season":2022,
+        "Home id":564,
+        "Away id":998,
+        "Home goals":3.0,
+        "Away goals":1.0,
+        "Home team":"Istanbul Basaksehir",
+        "Away team":"Trabzonspor",
+        "League":"S\u00fcper Lig",
+        "Home odd":"2.38",
+        "Draw odd":"3.6",
+        "Away odd":"2.6"
+    }
+]

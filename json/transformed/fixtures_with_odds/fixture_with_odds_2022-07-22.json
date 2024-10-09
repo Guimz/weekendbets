@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":872873,
+        "Date":"2022-07-22T16:30:00+00:00",
+        "League id":79,
+        "Season":2022,
+        "Home id":181,
+        "Away id":189,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"SV Darmstadt 98",
+        "Away team":"SV Sandhausen",
+        "League":"2. Bundesliga",
+        "Home odd":"1.8",
+        "Draw odd":"4.0",
+        "Away odd":"4.0"
+    },
+    {
+        "Fixture":872877,
+        "Date":"2022-07-22T16:30:00+00:00",
+        "League id":79,
+        "Season":2022,
+        "Home id":158,
+        "Away id":185,
+        "Home goals":2.0,
+        "Away goals":1.0,
+        "Home team":"Fortuna Dusseldorf",
+        "Away team":"SC Paderborn 07",
+        "League":"2. Bundesliga",
+        "Home odd":"2.4",
+        "Draw odd":"3.6",
+        "Away odd":"2.75"
+    },
+    {
+        "Fixture":874728,
+        "Date":"2022-07-22T18:45:00+00:00",
+        "League id":144,
+        "Season":2022,
+        "Home id":733,
+        "Away id":631,
+        "Home goals":2.0,
+        "Away goals":2.0,
+        "Home team":"Standard Liege",
+        "Away team":"Gent",
+        "League":"Jupiler Pro League",
+        "Home odd":"4.2",
+        "Draw odd":"3.6",
+        "Away odd":"1.85"
+    }
+]

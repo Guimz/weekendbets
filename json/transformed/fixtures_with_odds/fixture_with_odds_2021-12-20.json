@@ -1,0 +1,50 @@
+[
+    {
+        "Fixture":755828,
+        "Date":"2021-12-20T17:30:00+00:00",
+        "League id":197,
+        "Season":2021,
+        "Home id":575,
+        "Away id":1124,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"AEK Athens FC",
+        "Away team":"OFI",
+        "League":"Super League 1",
+        "Home odd":"1.36",
+        "Draw odd":"4.75",
+        "Away odd":"8.0"
+    },
+    {
+        "Fixture":717066,
+        "Date":"2021-12-20T19:45:00+00:00",
+        "League id":40,
+        "Season":2021,
+        "Home id":36,
+        "Away id":62,
+        "Home goals":0.0,
+        "Away goals":1.0,
+        "Home team":"Fulham",
+        "Away team":"Sheffield Utd",
+        "League":"Championship",
+        "Home odd":"1.75",
+        "Draw odd":"3.6",
+        "Away odd":"5.0"
+    },
+    {
+        "Fixture":720914,
+        "Date":"2021-12-20T20:00:00+00:00",
+        "League id":140,
+        "Season":2021,
+        "Home id":539,
+        "Away id":532,
+        "Home goals":3.0,
+        "Away goals":4.0,
+        "Home team":"Levante",
+        "Away team":"Valencia",
+        "League":"La Liga",
+        "Home odd":"2.7",
+        "Draw odd":"3.2",
+        "Away odd":"2.75"
+    }
+]

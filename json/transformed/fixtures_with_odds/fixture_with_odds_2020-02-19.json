@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":157270,
+        "Date":"2020-02-19T19:30:00+00:00",
+        "League id":39,
+        "Season":2019,
+        "Home id":50,
+        "Away id":48,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Manchester City",
+        "Away team":"West Ham",
+        "League":"Premier League",
+        "Home odd":"1.12",
+        "Draw odd":"9.5",
+        "Away odd":"17.0"
+    },
+    {
+        "Fixture":214660,
+        "Date":"2020-02-19T20:00:00+00:00",
+        "League id":141,
+        "Season":2019,
+        "Home id":799,
+        "Away id":732,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"Mirandes",
+        "Away team":"Zaragoza",
+        "League":"Segunda Divisi\u00f3n",
+        "Home odd":"3.0",
+        "Draw odd":"3.1",
+        "Away odd":"2.45"
+    }
+]

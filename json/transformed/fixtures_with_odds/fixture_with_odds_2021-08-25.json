@@ -1,0 +1,18 @@
+[
+    {
+        "Fixture":719685,
+        "Date":"2021-08-25T17:00:00+00:00",
+        "League id":62,
+        "Season":2021,
+        "Home id":98,
+        "Away id":88,
+        "Home goals":2.0,
+        "Away goals":0.0,
+        "Home team":"Ajaccio",
+        "Away team":"Caen",
+        "League":"Ligue 2",
+        "Home odd":"2.3",
+        "Draw odd":"3.1",
+        "Away odd":"3.2"
+    }
+]

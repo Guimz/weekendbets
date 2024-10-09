@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":1063634,
+        "Date":"2024-01-18T18:45:00+00:00",
+        "League id":94,
+        "Season":2023,
+        "Home id":242,
+        "Away id":217,
+        "Home goals":1.0,
+        "Away goals":2.0,
+        "Home team":"Famalicao",
+        "Away team":"SC Braga",
+        "League":"Primeira Liga",
+        "Home odd":"4.33",
+        "Draw odd":"3.6",
+        "Away odd":"1.8"
+    },
+    {
+        "Fixture":1063636,
+        "Date":"2024-01-18T20:45:00+00:00",
+        "League id":94,
+        "Season":2023,
+        "Home id":810,
+        "Away id":228,
+        "Home goals":2.0,
+        "Away goals":5.0,
+        "Home team":"Vizela",
+        "Away team":"Sporting CP",
+        "League":"Primeira Liga",
+        "Home odd":"7.5",
+        "Draw odd":"5.0",
+        "Away odd":"1.36"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "Fixture":1073600,
+        "Date":"2024-01-08T18:00:00+00:00",
+        "League id":197,
+        "Season":2023,
+        "Home id":1124,
+        "Away id":956,
+        "Home goals":1.0,
+        "Away goals":1.0,
+        "Home team":"OFI",
+        "Away team":"Lamia",
+        "League":"Super League 1",
+        "Home odd":"1.85",
+        "Draw odd":"3.3",
+        "Away odd":"4.75"
+    },
+    {
+        "Fixture":1063612,
+        "Date":"2024-01-08T20:15:00+00:00",
+        "League id":94,
+        "Season":2023,
+        "Home id":215,
+        "Away id":4716,
+        "Home goals":1.0,
+        "Away goals":4.0,
+        "Home team":"Moreirense",
+        "Away team":"Casa Pia",
+        "League":"Primeira Liga",
+        "Home odd":"1.91",
+        "Draw odd":"3.5",
+        "Away odd":"4.0"
+    }
+]
