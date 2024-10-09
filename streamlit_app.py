@@ -108,7 +108,7 @@ def home_wins_history_ui():
 
     dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
 
-    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
+    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
 
 
     filtered_df = dataframe_explorer(dataframe, case=False)
