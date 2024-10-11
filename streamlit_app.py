@@ -7,6 +7,7 @@ import streamlit as st
 from datetime import datetime, timezone
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.metric_cards import style_metric_cards
+import plotly.express as px
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
 
@@ -69,7 +70,13 @@ def upcoming_home_wins_ui():
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
-    dataframe = dataframe[['Date', 'Home team', 'Away team', 'League', 'Category', 'Home odd', 'Draw odd', 'Away odd']]
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+
+    dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
+
+    dataframe = dataframe[['Date', 'H Pos', 'Home team', 'Away team', 'A Pos', 'League', 'Category', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 
+                           'Expected away goals', 'H Pts', 'A Pts', 'H Form', 'A Form']]
 
     filtered_df = dataframe_explorer(dataframe, case=False)
     st.markdown('##')
@@ -157,9 +164,85 @@ def home_wins_history_ui():
 
     st.dataframe(styled_df, use_container_width=True, height=600, hide_index=True)
 
+    # Group dataframe by league and calculate home win percentage
+    league_stats = dataframe.groupby('League').agg({
+        'Result': lambda x: (x == 'H').mean()
+    }).reset_index()
+    
+    league_stats = league_stats.rename(columns={'Result': 'Home Win %'})
+    league_stats['Home Win %'] = league_stats['Home Win %'] * 100
+    
+    # Sort by home win percentage in descending order
+    league_stats = league_stats.sort_values('Home Win %', ascending=False)
+    
+    # Display the league statistics
+    st.subheader("Home Win Percentage by League")
+    st.dataframe(league_stats.style.format({'Home Win %': '{:.2f}%'}), use_container_width=True, hide_index=True)
+
+    # Optionally, create a bar chart
+    fig = px.bar(league_stats, x='League', y='Home Win %', 
+                 title='Home Win Percentage by League',
+                 labels={'Home Win %': 'Home Win Percentage'})
+    st.plotly_chart(fig, use_container_width=True)
+
+
+def playground_ui():
+    st.header("Playground")
+    
+    day = date.today()
+    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
+
+    dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
+    dataframe = dataframe[dataframe['Date'] < now_date]  # Compare with UTC now_date
+
+    dataframe = dataframe.drop(columns='Fixture')
+
+    dataframe['Home odd'] = pd.to_numeric(dataframe['Home odd'])
+    dataframe['Draw odd'] = pd.to_numeric(dataframe['Draw odd'])
+    dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
+
+    categories = ['Gold', 'Silver', 'Bronze']
+    conditions = [
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 10)),
+        ((dataframe['Draw odd'] >= 6) & (dataframe['Home odd'] < 1.25) & (dataframe['Away odd'] > 9)),
+        ((dataframe['Draw odd'] >= 5) & (dataframe['Home odd'] < 1.3) & (dataframe['Away odd'] > 8))]
+
+
+    dataframe['Category'] = np.select(conditions, categories, default='other')
+
+    # Drop rows where 'Home goals' is null or NaN
+    dataframe = dataframe.dropna(subset=['Home goals'])
+
+    dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
+
+    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
+
+
+    filtered_df = dataframe_explorer(dataframe, case=False)
+    st.markdown('##')
+
+    number_of_matches = len(filtered_df)
+    number_of_home_matches_won = len(filtered_df[filtered_df['Result'] == 'H'])
+    number_of_draw_matches_won = len(filtered_df[filtered_df['Result'] == 'D'])
+    number_of_away_matches_won = len(filtered_df[filtered_df['Result'] == 'A'])
+
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Total home favourites", f"{number_of_matches}")
+    col2.metric("Total Gold matches", f"{number_of_home_matches_won / number_of_matches * 100:.2f}%")
+    col3.metric("Total Silver matches", f"{number_of_draw_matches_won / number_of_matches * 100:.2f}%")
+    col4.metric("Total Bronze matches", f"{number_of_away_matches_won / number_of_matches * 100:.2f}%")
+
+    style_metric_cards()
+
+    filtered_df.sort_values(by='Date', ascending=False, inplace=True)
+
+    st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
+
 st.set_page_config(layout="wide")
 home_wins_page = st.Page(upcoming_home_wins_ui, title="Home wins")
 home_wins_history_page = st.Page(home_wins_history_ui, title="Home wins history")
-pages = [home_wins_page, home_wins_history_page]
+playground_page = st.Page(playground_ui, title="Playground")
+pages = [home_wins_page, home_wins_history_page, playground_page]
 pg = st.navigation(pages)
 pg.run()

@@ -1,0 +1,1958 @@
+[{
+        "old_team_names": "Standard",
+        "mapped_team_id": 733.0,
+        "mapped_team_name": "Standard Liege"
+    }, {
+        "old_team_names": "Charleroi",
+        "mapped_team_id": 736.0,
+        "mapped_team_name": "Charleroi"
+    }, {
+        "old_team_names": "Kortrijk",
+        "mapped_team_id": 734.0,
+        "mapped_team_name": "Kortrijk"
+    }, {
+        "old_team_names": "Waregem",
+        "mapped_team_id": 14035.0,
+        "mapped_team_name": "Zulte-Waregem W"
+    }, {
+        "old_team_names": "St Truiden",
+        "mapped_team_id": 735.0,
+        "mapped_team_name": "St. Truiden"
+    }, {
+        "old_team_names": "Club Brugge",
+        "mapped_team_id": 569.0,
+        "mapped_team_name": "Club Brugge KV"
+    }, {
+        "old_team_names": "Mechelen",
+        "mapped_team_id": 266.0,
+        "mapped_team_name": "KV Mechelen"
+    }, {
+        "old_team_names": "Anderlecht",
+        "mapped_team_id": 554.0,
+        "mapped_team_name": "Anderlecht"
+    }, {
+        "old_team_names": "Westerlo",
+        "mapped_team_id": 261.0,
+        "mapped_team_name": "KVC Westerlo"
+    }, {
+        "old_team_names": "St. Gilloise",
+        "mapped_team_id": 1393.0,
+        "mapped_team_name": "Union St. Gilloise"
+    }, {
+        "old_team_names": "Cercle Brugge",
+        "mapped_team_id": 741.0,
+        "mapped_team_name": "Cercle Brugge"
+    }, {
+        "old_team_names": "Oostende",
+        "mapped_team_id": 624.0,
+        "mapped_team_name": "Oostende"
+    }, {
+        "old_team_names": "Oud-Heverlee Leuven",
+        "mapped_team_id": 260.0,
+        "mapped_team_name": "OH Leuven"
+    }, {
+        "old_team_names": "Gent",
+        "mapped_team_id": 631.0,
+        "mapped_team_name": "Gent"
+    }, {
+        "old_team_names": "Genk",
+        "mapped_team_id": 742.0,
+        "mapped_team_name": "Genk"
+    }, {
+        "old_team_names": "Eupen",
+        "mapped_team_id": 739.0,
+        "mapped_team_name": "AS Eupen"
+    }, {
+        "old_team_names": "Seraing",
+        "mapped_team_id": 10244.0,
+        "mapped_team_name": "Seraing United"
+    }, {
+        "old_team_names": "Antwerp",
+        "mapped_team_id": 740.0,
+        "mapped_team_name": "Antwerp"
+    }, {
+        "old_team_names": "Beerschot VA",
+        "mapped_team_id": 263.0,
+        "mapped_team_name": "Beerschot Wilrijk"
+    }, {
+        "old_team_names": "Mouscron",
+        "mapped_team_id": null,
+        "mapped_team_name": null
+    }, {
+        "old_team_names": "Waasland-Beveren",
+        "mapped_team_id": 738.0,
+        "mapped_team_name": "Waasland-beveren"
+    }, {
+        "old_team_names": "RWD Molenbeek",
+        "mapped_team_id": null,
+        "mapped_team_name": null
+    }, {
+        "old_team_names": "Ein Frankfurt",
+        "mapped_team_id": 169.0,
+        "mapped_team_name": "Eintracht Frankfurt"
+    }, {
+        "old_team_names": "Augsburg",
+        "mapped_team_id": 170.0,
+        "mapped_team_name": "FC Augsburg"
+    }, {
+        "old_team_names": "Bochum",
+        "mapped_team_id": 176.0,
+        "mapped_team_name": "Vfl Bochum"
+    }, {
+        "old_team_names": "M'gladbach",
+        "mapped_team_id": 163.0,
+        "mapped_team_name": "Borussia Monchengladbach"
+    }, {
+        "old_team_names": "Union Berlin",
+        "mapped_team_id": 182.0,
+        "mapped_team_name": "Union Berlin"
+    }, {
+        "old_team_names": "Wolfsburg",
+        "mapped_team_id": 161.0,
+        "mapped_team_name": "VfL Wolfsburg"
+    }, {
+        "old_team_names": "Dortmund",
+        "mapped_team_id": 165.0,
+        "mapped_team_name": "Borussia Dortmund"
+    }, {
+        "old_team_names": "Stuttgart",
+        "mapped_team_id": 172.0,
+        "mapped_team_name": "VfB Stuttgart"
+    }, {
+        "old_team_names": "FC Koln",
+        "mapped_team_id": 192.0,
+        "mapped_team_name": "1.FC K\u00f6ln"
+    }, {
+        "old_team_names": "Freiburg",
+        "mapped_team_id": 160.0,
+        "mapped_team_name": "SC Freiburg"
+    }, {
+        "old_team_names": "Hertha",
+        "mapped_team_id": 159.0,
+        "mapped_team_name": "Hertha Berlin"
+    }, {
+        "old_team_names": "Hoffenheim",
+        "mapped_team_id": 167.0,
+        "mapped_team_name": "1899 Hoffenheim"
+    }, {
+        "old_team_names": "Leverkusen",
+        "mapped_team_id": 168.0,
+        "mapped_team_name": "Bayer Leverkusen"
+    }, {
+        "old_team_names": "RB Leipzig",
+        "mapped_team_id": 173.0,
+        "mapped_team_name": "RB Leipzig"
+    }, {
+        "old_team_names": "Werder Bremen",
+        "mapped_team_id": 162.0,
+        "mapped_team_name": "Werder Bremen"
+    }, {
+        "old_team_names": "Schalke 04",
+        "mapped_team_id": 174.0,
+        "mapped_team_name": "FC Schalke 04"
+    }, {
+        "old_team_names": "Mainz",
+        "mapped_team_id": 164.0,
+        "mapped_team_name": "FSV Mainz 05"
+    }, {
+        "old_team_names": "Bayern Munich",
+        "mapped_team_id": 157.0,
+        "mapped_team_name": "Bayern Munich"
+    }, {
+        "old_team_names": "Bielefeld",
+        "mapped_team_id": 188.0,
+        "mapped_team_name": "Arminia Bielefeld"
+    }, {
+        "old_team_names": "Greuther Furth",
+        "mapped_team_id": 178.0,
+        "mapped_team_name": "SpVgg Greuther Furth"
+    }, {
+        "old_team_names": "Fortuna Dusseldorf",
+        "mapped_team_id": 158.0,
+        "mapped_team_name": "Fortuna Dusseldorf"
+    }, {
+        "old_team_names": "Paderborn",
+        "mapped_team_id": 185.0,
+        "mapped_team_name": "SC Paderborn 07"
+    }, {
+        "old_team_names": "Darmstadt",
+        "mapped_team_id": 181.0,
+        "mapped_team_name": "SV Darmstadt 98"
+    }, {
+        "old_team_names": "Heidenheim",
+        "mapped_team_id": 180.0,
+        "mapped_team_name": "FC Heidenheim"
+    }, {
+        "old_team_names": "Kaiserslautern",
+        "mapped_team_id": 745.0,
+        "mapped_team_name": "FC Kaiserslautern"
+    }, {
+        "old_team_names": "Regensburg",
+        "mapped_team_id": 177.0,
+        "mapped_team_name": "Jahn Regensburg"
+    }, {
+        "old_team_names": "Sandhausen",
+        "mapped_team_id": 189.0,
+        "mapped_team_name": "SV Sandhausen"
+    }, {
+        "old_team_names": "St Pauli",
+        "mapped_team_id": 186.0,
+        "mapped_team_name": "FC St. Pauli"
+    }, {
+        "old_team_names": "Magdeburg",
+        "mapped_team_id": 179.0,
+        "mapped_team_name": "FC Magdeburg"
+    }, {
+        "old_team_names": "Braunschweig",
+        "mapped_team_id": 744.0,
+        "mapped_team_name": "Eintracht Braunschweig"
+    }, {
+        "old_team_names": "Hansa Rostock",
+        "mapped_team_id": 1321.0,
+        "mapped_team_name": "Hansa Rostock"
+    }, {
+        "old_team_names": "Holstein Kiel",
+        "mapped_team_id": 191.0,
+        "mapped_team_name": "Holstein Kiel"
+    }, {
+        "old_team_names": "Nurnberg",
+        "mapped_team_id": 171.0,
+        "mapped_team_name": "FC Nurnberg"
+    }, {
+        "old_team_names": "Hannover",
+        "mapped_team_id": 166.0,
+        "mapped_team_name": "Hannover 96"
+    }, {
+        "old_team_names": "Hamburg",
+        "mapped_team_id": 175.0,
+        "mapped_team_name": "Hamburger SV"
+    }, {
+        "old_team_names": "Karlsruhe",
+        "mapped_team_id": 785.0,
+        "mapped_team_name": "Karlsruher SC"
+    }, {
+        "old_team_names": "Dresden",
+        "mapped_team_id": 183.0,
+        "mapped_team_name": "Dynamo Dresden"
+    }, {
+        "old_team_names": "Ingolstadt",
+        "mapped_team_id": 184.0,
+        "mapped_team_name": "FC Ingolstadt 04"
+    }, {
+        "old_team_names": "Erzgebirge Aue",
+        "mapped_team_id": 190.0,
+        "mapped_team_name": "Erzgebirge AUE"
+    }, {
+        "old_team_names": "Wurzburger Kickers",
+        "mapped_team_id": 784.0,
+        "mapped_team_name": "FC Wurzburger Kickers"
+    }, {
+        "old_team_names": "Osnabruck",
+        "mapped_team_id": 1324.0,
+        "mapped_team_name": "VfL Osnabruck"
+    }, {
+        "old_team_names": "Wehen",
+        "mapped_team_id": 1319.0,
+        "mapped_team_name": "SV Wehen"
+    }, {
+        "old_team_names": "Elversberg",
+        "mapped_team_id": 1660.0,
+        "mapped_team_name": "SV Elversberg"
+    }, {
+        "old_team_names": "Crystal Palace",
+        "mapped_team_id": 52.0,
+        "mapped_team_name": "Crystal Palace"
+    }, {
+        "old_team_names": "Fulham",
+        "mapped_team_id": 36.0,
+        "mapped_team_name": "Fulham"
+    }, {
+        "old_team_names": "Bournemouth",
+        "mapped_team_id": 35.0,
+        "mapped_team_name": "Bournemouth"
+    }, {
+        "old_team_names": "Leeds",
+        "mapped_team_id": 63.0,
+        "mapped_team_name": "Leeds"
+    }, {
+        "old_team_names": "Newcastle",
+        "mapped_team_id": 34.0,
+        "mapped_team_name": "Newcastle"
+    }, {
+        "old_team_names": "Tottenham",
+        "mapped_team_id": 47.0,
+        "mapped_team_name": "Tottenham"
+    }, {
+        "old_team_names": "Everton",
+        "mapped_team_id": 45.0,
+        "mapped_team_name": "Everton"
+    }, {
+        "old_team_names": "Leicester",
+        "mapped_team_id": 46.0,
+        "mapped_team_name": "Leicester"
+    }, {
+        "old_team_names": "Man United",
+        "mapped_team_id": 33.0,
+        "mapped_team_name": "Manchester United"
+    }, {
+        "old_team_names": "West Ham",
+        "mapped_team_id": 48.0,
+        "mapped_team_name": "West Ham"
+    }, {
+        "old_team_names": "Aston Villa",
+        "mapped_team_id": 66.0,
+        "mapped_team_name": "Aston Villa"
+    }, {
+        "old_team_names": "Arsenal",
+        "mapped_team_id": 42.0,
+        "mapped_team_name": "Arsenal"
+    }, {
+        "old_team_names": "Brighton",
+        "mapped_team_id": 51.0,
+        "mapped_team_name": "Brighton"
+    }, {
+        "old_team_names": "Man City",
+        "mapped_team_id": 50.0,
+        "mapped_team_name": "Manchester City"
+    }, {
+        "old_team_names": "Southampton",
+        "mapped_team_id": 41.0,
+        "mapped_team_name": "Southampton"
+    }, {
+        "old_team_names": "Wolves",
+        "mapped_team_id": 39.0,
+        "mapped_team_name": "Wolves"
+    }, {
+        "old_team_names": "Brentford",
+        "mapped_team_id": 55.0,
+        "mapped_team_name": "Brentford"
+    }, {
+        "old_team_names": "Nott'm Forest",
+        "mapped_team_id": 65.0,
+        "mapped_team_name": "Nottingham Forest"
+    }, {
+        "old_team_names": "Chelsea",
+        "mapped_team_id": 49.0,
+        "mapped_team_name": "Chelsea"
+    }, {
+        "old_team_names": "Liverpool",
+        "mapped_team_id": 40.0,
+        "mapped_team_name": "Liverpool"
+    }, {
+        "old_team_names": "Burnley",
+        "mapped_team_id": 44.0,
+        "mapped_team_name": "Burnley"
+    }, {
+        "old_team_names": "Watford",
+        "mapped_team_id": 38.0,
+        "mapped_team_name": "Watford"
+    }, {
+        "old_team_names": "Norwich",
+        "mapped_team_id": 71.0,
+        "mapped_team_name": "Norwich"
+    }, {
+        "old_team_names": "West Brom",
+        "mapped_team_id": 60.0,
+        "mapped_team_name": "West Brom"
+    }, {
+        "old_team_names": "Sheffield United",
+        "mapped_team_id": 62.0,
+        "mapped_team_name": "Sheffield Utd"
+    }, {
+        "old_team_names": "Luton",
+        "mapped_team_id": 1359.0,
+        "mapped_team_name": "Luton"
+    }, {
+        "old_team_names": "Huddersfield",
+        "mapped_team_id": 37.0,
+        "mapped_team_name": "Huddersfield"
+    }, {
+        "old_team_names": "Blackburn",
+        "mapped_team_id": 67.0,
+        "mapped_team_name": "Blackburn"
+    }, {
+        "old_team_names": "Blackpool",
+        "mapped_team_id": 1356.0,
+        "mapped_team_name": "Blackpool"
+    }, {
+        "old_team_names": "Cardiff",
+        "mapped_team_id": 43.0,
+        "mapped_team_name": "Cardiff"
+    }, {
+        "old_team_names": "Hull",
+        "mapped_team_id": 64.0,
+        "mapped_team_name": "Hull City"
+    }, {
+        "old_team_names": "Millwall",
+        "mapped_team_id": 58.0,
+        "mapped_team_name": "Millwall"
+    }, {
+        "old_team_names": "Rotherham",
+        "mapped_team_id": 73.0,
+        "mapped_team_name": "Rotherham"
+    }, {
+        "old_team_names": "Wigan",
+        "mapped_team_id": 61.0,
+        "mapped_team_name": "Wigan"
+    }, {
+        "old_team_names": "Middlesbrough",
+        "mapped_team_id": 70.0,
+        "mapped_team_name": "Middlesbrough"
+    }, {
+        "old_team_names": "Sunderland",
+        "mapped_team_id": 746.0,
+        "mapped_team_name": "Sunderland"
+    }, {
+        "old_team_names": "Birmingham",
+        "mapped_team_id": 54.0,
+        "mapped_team_name": "Birmingham"
+    }, {
+        "old_team_names": "Bristol City",
+        "mapped_team_id": 56.0,
+        "mapped_team_name": "Bristol City"
+    }, {
+        "old_team_names": "Preston",
+        "mapped_team_id": 59.0,
+        "mapped_team_name": "Preston"
+    }, {
+        "old_team_names": "QPR",
+        "mapped_team_id": 72.0,
+        "mapped_team_name": "QPR"
+    }, {
+        "old_team_names": "Reading",
+        "mapped_team_id": 53.0,
+        "mapped_team_name": "Reading"
+    }, {
+        "old_team_names": "Stoke",
+        "mapped_team_id": 75.0,
+        "mapped_team_name": "Stoke City"
+    }, {
+        "old_team_names": "Swansea",
+        "mapped_team_id": 76.0,
+        "mapped_team_name": "Swansea"
+    }, {
+        "old_team_names": "Coventry",
+        "mapped_team_id": 1346.0,
+        "mapped_team_name": "Coventry"
+    }, {
+        "old_team_names": "Derby",
+        "mapped_team_id": 69.0,
+        "mapped_team_name": "Derby"
+    }, {
+        "old_team_names": "Peterboro",
+        "mapped_team_id": 1350.0,
+        "mapped_team_name": "Peterborough"
+    }, {
+        "old_team_names": "Barnsley",
+        "mapped_team_id": 747.0,
+        "mapped_team_name": "Barnsley"
+    }, {
+        "old_team_names": "Wycombe",
+        "mapped_team_id": 1358.0,
+        "mapped_team_name": "Wycombe"
+    }, {
+        "old_team_names": "Sheffield Weds",
+        "mapped_team_id": 74.0,
+        "mapped_team_name": "Sheffield Wednesday"
+    }, {
+        "old_team_names": "Charlton",
+        "mapped_team_id": 1335.0,
+        "mapped_team_name": "Charlton"
+    }, {
+        "old_team_names": "Plymouth",
+        "mapped_team_id": 1357.0,
+        "mapped_team_name": "Plymouth"
+    }, {
+        "old_team_names": "Ipswich",
+        "mapped_team_id": 57.0,
+        "mapped_team_name": "Ipswich"
+    }, {
+        "old_team_names": "Accrington",
+        "mapped_team_id": 1360.0,
+        "mapped_team_name": "Accrington ST"
+    }, {
+        "old_team_names": "Bristol Rvs",
+        "mapped_team_id": 1334.0,
+        "mapped_team_name": "Bristol Rovers"
+    }, {
+        "old_team_names": "Cambridge",
+        "mapped_team_id": 1370.0,
+        "mapped_team_name": "Cambridge United"
+    }, {
+        "old_team_names": "Cheltenham",
+        "mapped_team_id": 1372.0,
+        "mapped_team_name": "Cheltenham"
+    }, {
+        "old_team_names": "Lincoln",
+        "mapped_team_id": 1379.0,
+        "mapped_team_name": "Lincoln"
+    }, {
+        "old_team_names": "Morecambe",
+        "mapped_team_id": 1375.0,
+        "mapped_team_name": "Morecambe"
+    }, {
+        "old_team_names": "Port Vale",
+        "mapped_team_id": 1351.0,
+        "mapped_team_name": "Port Vale"
+    }, {
+        "old_team_names": "Bolton",
+        "mapped_team_id": 68.0,
+        "mapped_team_name": "Bolton"
+    }, {
+        "old_team_names": "Burton",
+        "mapped_team_id": 748.0,
+        "mapped_team_name": "Burton Albion"
+    }, {
+        "old_team_names": "Exeter",
+        "mapped_team_id": 1364.0,
+        "mapped_team_name": "Exeter City"
+    }, {
+        "old_team_names": "Fleetwood Town",
+        "mapped_team_id": 1336.0,
+        "mapped_team_name": "Fleetwood Town"
+    }, {
+        "old_team_names": "Forest Green",
+        "mapped_team_id": 1378.0,
+        "mapped_team_name": "Forest Green"
+    }, {
+        "old_team_names": "Milton Keynes Dons",
+        "mapped_team_id": 1348.0,
+        "mapped_team_name": "Milton Keynes Dons"
+    }, {
+        "old_team_names": "Oxford",
+        "mapped_team_id": 1338.0,
+        "mapped_team_name": "Oxford United"
+    }, {
+        "old_team_names": "Portsmouth",
+        "mapped_team_id": 1355.0,
+        "mapped_team_name": "Portsmouth"
+    }, {
+        "old_team_names": "Shrewsbury",
+        "mapped_team_id": 1352.0,
+        "mapped_team_name": "Shrewsbury"
+    }, {
+        "old_team_names": "Crewe",
+        "mapped_team_id": 1363.0,
+        "mapped_team_name": "Crewe"
+    }, {
+        "old_team_names": "Doncaster",
+        "mapped_team_id": 1354.0,
+        "mapped_team_name": "Doncaster"
+    }, {
+        "old_team_names": "Gillingham",
+        "mapped_team_id": 1347.0,
+        "mapped_team_name": "Gillingham"
+    }, {
+        "old_team_names": "AFC Wimbledon",
+        "mapped_team_id": 1333.0,
+        "mapped_team_name": "AFC Wimbledon"
+    }, {
+        "old_team_names": "Northampton",
+        "mapped_team_id": 1337.0,
+        "mapped_team_name": "Northampton"
+    }, {
+        "old_team_names": "Swindon",
+        "mapped_team_id": 1353.0,
+        "mapped_team_name": "Swindon Town"
+    }, {
+        "old_team_names": "Rochdale",
+        "mapped_team_id": 1339.0,
+        "mapped_team_name": "Rochdale"
+    }, {
+        "old_team_names": "Tranmere",
+        "mapped_team_id": 1381.0,
+        "mapped_team_name": "Tranmere"
+    }, {
+        "old_team_names": "Southend",
+        "mapped_team_id": 1341.0,
+        "mapped_team_name": "Southend"
+    }, {
+        "old_team_names": "Carlisle",
+        "mapped_team_id": 1371.0,
+        "mapped_team_name": "Carlisle"
+    }, {
+        "old_team_names": "Leyton Orient",
+        "mapped_team_id": 1373.0,
+        "mapped_team_name": "Leyton Orient"
+    }, {
+        "old_team_names": "Stevenage",
+        "mapped_team_id": 1368.0,
+        "mapped_team_name": "Stevenage"
+    }, {
+        "old_team_names": "Bradford",
+        "mapped_team_id": 1343.0,
+        "mapped_team_name": "Bradford"
+    }, {
+        "old_team_names": "Harrogate",
+        "mapped_team_id": 1842.0,
+        "mapped_team_name": "Harrogate Town"
+    }, {
+        "old_team_names": "Salford",
+        "mapped_team_id": 1844.0,
+        "mapped_team_name": "Salford City"
+    }, {
+        "old_team_names": "Stockport",
+        "mapped_team_id": 4686.0,
+        "mapped_team_name": "Stockport County"
+    }, {
+        "old_team_names": "Sutton",
+        "mapped_team_id": 1835.0,
+        "mapped_team_name": "Sutton Utd"
+    }, {
+        "old_team_names": "Walsall",
+        "mapped_team_id": 1342.0,
+        "mapped_team_name": "Walsall"
+    }, {
+        "old_team_names": "Barrow",
+        "mapped_team_id": 1819.0,
+        "mapped_team_name": "Barrow"
+    }, {
+        "old_team_names": "Colchester",
+        "mapped_team_id": 1361.0,
+        "mapped_team_name": "Colchester"
+    }, {
+        "old_team_names": "Crawley Town",
+        "mapped_team_id": 1362.0,
+        "mapped_team_name": "Crawley Town"
+    }, {
+        "old_team_names": "Grimsby",
+        "mapped_team_id": 1365.0,
+        "mapped_team_name": "Grimsby"
+    }, {
+        "old_team_names": "Hartlepool",
+        "mapped_team_id": 1366.0,
+        "mapped_team_name": "Hartlepool"
+    }, {
+        "old_team_names": "Mansfield",
+        "mapped_team_id": 1374.0,
+        "mapped_team_name": "Mansfield Town"
+    }, {
+        "old_team_names": "Newport County",
+        "mapped_team_id": 1367.0,
+        "mapped_team_name": "Newport County"
+    }, {
+        "old_team_names": "Oldham",
+        "mapped_team_id": 1349.0,
+        "mapped_team_name": "Oldham"
+    }, {
+        "old_team_names": "Scunthorpe",
+        "mapped_team_id": 1340.0,
+        "mapped_team_name": "Scunthorpe"
+    }, {
+        "old_team_names": "Macclesfield",
+        "mapped_team_id": 1380.0,
+        "mapped_team_name": "Macclesfield"
+    }, {
+        "old_team_names": "Wrexham",
+        "mapped_team_id": 1837.0,
+        "mapped_team_name": "Wrexham"
+    }, {
+        "old_team_names": "Notts County",
+        "mapped_team_id": 1376.0,
+        "mapped_team_name": "Notts County"
+    }, {
+        "old_team_names": "Aldershot",
+        "mapped_team_id": 1818.0,
+        "mapped_team_name": "Aldershot Town"
+    }, {
+        "old_team_names": "Altrincham",
+        "mapped_team_id": 4700.0,
+        "mapped_team_name": "Altrincham"
+    }, {
+        "old_team_names": "Barnet",
+        "mapped_team_id": 1369.0,
+        "mapped_team_name": "Barnet"
+    }, {
+        "old_team_names": "Dag and Red",
+        "mapped_team_id": 1821.0,
+        "mapped_team_name": "Dagenham & Redbridge"
+    }, {
+        "old_team_names": "Dorking",
+        "mapped_team_id": 8659.0,
+        "mapped_team_name": "Dorking Wanderers"
+    }, {
+        "old_team_names": "Torquay",
+        "mapped_team_id": 1827.0,
+        "mapped_team_name": "Torquay"
+    }, {
+        "old_team_names": "Wealdstone",
+        "mapped_team_id": 8663.0,
+        "mapped_team_name": "Wealdstone"
+    }, {
+        "old_team_names": "York",
+        "mapped_team_id": 1828.0,
+        "mapped_team_name": "York"
+    }, {
+        "old_team_names": "Boreham Wood",
+        "mapped_team_id": 1830.0,
+        "mapped_team_name": "Boreham Wood"
+    }, {
+        "old_team_names": "Bromley",
+        "mapped_team_id": 1832.0,
+        "mapped_team_name": "Bromley"
+    }, {
+        "old_team_names": "Chesterfield",
+        "mapped_team_id": 1345.0,
+        "mapped_team_name": "Chesterfield"
+    }, {
+        "old_team_names": "Eastleigh",
+        "mapped_team_id": 1822.0,
+        "mapped_team_name": "Eastleigh"
+    }, {
+        "old_team_names": "Gateshead",
+        "mapped_team_id": 1823.0,
+        "mapped_team_name": "Gateshead"
+    }, {
+        "old_team_names": "Halifax",
+        "mapped_team_id": 1841.0,
+        "mapped_team_name": "FC Halifax Town"
+    }, {
+        "old_team_names": "Maidenhead",
+        "mapped_team_id": 1838.0,
+        "mapped_team_name": "Maidenhead"
+    }, {
+        "old_team_names": "Maidstone",
+        "mapped_team_id": 1825.0,
+        "mapped_team_name": "Maidstone Utd"
+    }, {
+        "old_team_names": "Solihull",
+        "mapped_team_id": 1834.0,
+        "mapped_team_name": "Solihull Moors"
+    }, {
+        "old_team_names": "Woking",
+        "mapped_team_id": 1836.0,
+        "mapped_team_name": "Woking"
+    }, {
+        "old_team_names": "Yeovil",
+        "mapped_team_id": 1377.0,
+        "mapped_team_name": "Yeovil Town"
+    }, {
+        "old_team_names": "King\u2019s Lynn",
+        "mapped_team_id": 8655.0,
+        "mapped_team_name": "King's Lynn Town"
+    }, {
+        "old_team_names": "Weymouth",
+        "mapped_team_id": 8665.0,
+        "mapped_team_name": "Weymouth"
+    }, {
+        "old_team_names": "Dover Athletic",
+        "mapped_team_id": 1829.0,
+        "mapped_team_name": "Dover"
+    }, {
+        "old_team_names": "Chorley",
+        "mapped_team_id": 4679.0,
+        "mapped_team_name": "Chorley"
+    }, {
+        "old_team_names": "Ebbsfleet",
+        "mapped_team_id": 1840.0,
+        "mapped_team_name": "Ebbsfleet United"
+    }, {
+        "old_team_names": "Fylde",
+        "mapped_team_id": 1839.0,
+        "mapped_team_name": "AFC Fylde"
+    }, {
+        "old_team_names": "Kidderminster",
+        "mapped_team_id": 4695.0,
+        "mapped_team_name": "Kidderminster Harriers"
+    }, {
+        "old_team_names": "Oxford City",
+        "mapped_team_id": 4684.0,
+        "mapped_team_name": "Oxford City"
+    }, {
+        "old_team_names": "Lyon",
+        "mapped_team_id": 80.0,
+        "mapped_team_name": "Lyon"
+    }, {
+        "old_team_names": "Strasbourg",
+        "mapped_team_id": 95.0,
+        "mapped_team_name": "Strasbourg"
+    }, {
+        "old_team_names": "Clermont",
+        "mapped_team_id": 99.0,
+        "mapped_team_name": "Clermont Foot"
+    }, {
+        "old_team_names": "Toulouse",
+        "mapped_team_id": 96.0,
+        "mapped_team_name": "Toulouse"
+    }, {
+        "old_team_names": "Angers",
+        "mapped_team_id": 77.0,
+        "mapped_team_name": "Angers"
+    }, {
+        "old_team_names": "Lens",
+        "mapped_team_id": 116.0,
+        "mapped_team_name": "Lens"
+    }, {
+        "old_team_names": "Lille",
+        "mapped_team_id": 79.0,
+        "mapped_team_name": "Lille"
+    }, {
+        "old_team_names": "Montpellier",
+        "mapped_team_id": 82.0,
+        "mapped_team_name": "Montpellier"
+    }, {
+        "old_team_names": "Rennes",
+        "mapped_team_id": 94.0,
+        "mapped_team_name": "Rennes"
+    }, {
+        "old_team_names": "Marseille",
+        "mapped_team_id": 81.0,
+        "mapped_team_name": "Marseille"
+    }, {
+        "old_team_names": "Nantes",
+        "mapped_team_id": 83.0,
+        "mapped_team_name": "Nantes"
+    }, {
+        "old_team_names": "Monaco",
+        "mapped_team_id": 91.0,
+        "mapped_team_name": "Monaco"
+    }, {
+        "old_team_names": "Paris SG",
+        "mapped_team_id": 85.0,
+        "mapped_team_name": "Paris Saint Germain"
+    }, {
+        "old_team_names": "Ajaccio",
+        "mapped_team_id": 98.0,
+        "mapped_team_name": "Ajaccio"
+    }, {
+        "old_team_names": "Auxerre",
+        "mapped_team_id": 108.0,
+        "mapped_team_name": "Auxerre"
+    }, {
+        "old_team_names": "Reims",
+        "mapped_team_id": 93.0,
+        "mapped_team_name": "Reims"
+    }, {
+        "old_team_names": "Troyes",
+        "mapped_team_id": 110.0,
+        "mapped_team_name": "Estac Troyes"
+    }, {
+        "old_team_names": "Nice",
+        "mapped_team_id": 84.0,
+        "mapped_team_name": "Nice"
+    }, {
+        "old_team_names": "Brest",
+        "mapped_team_id": 106.0,
+        "mapped_team_name": "Stade Brestois 29"
+    }, {
+        "old_team_names": "Lorient",
+        "mapped_team_id": 97.0,
+        "mapped_team_name": "Lorient"
+    }, {
+        "old_team_names": "Bordeaux",
+        "mapped_team_id": 78.0,
+        "mapped_team_name": "Bordeaux"
+    }, {
+        "old_team_names": "St Etienne",
+        "mapped_team_id": 1063.0,
+        "mapped_team_name": "Saint Etienne"
+    }, {
+        "old_team_names": "Metz",
+        "mapped_team_id": 112.0,
+        "mapped_team_name": "Metz"
+    }, {
+        "old_team_names": "Dijon",
+        "mapped_team_id": 89.0,
+        "mapped_team_name": "Dijon"
+    }, {
+        "old_team_names": "Nimes",
+        "mapped_team_id": 92.0,
+        "mapped_team_name": "Nimes"
+    }, {
+        "old_team_names": "Amiens",
+        "mapped_team_id": 87.0,
+        "mapped_team_name": "Amiens"
+    }, {
+        "old_team_names": "Le Havre",
+        "mapped_team_id": 111.0,
+        "mapped_team_name": "LE Havre"
+    }, {
+        "old_team_names": "Annecy",
+        "mapped_team_id": 3012.0,
+        "mapped_team_name": "Annecy"
+    }, {
+        "old_team_names": "Bastia",
+        "mapped_team_id": 1305.0,
+        "mapped_team_name": "Bastia"
+    }, {
+        "old_team_names": "Guingamp",
+        "mapped_team_id": 90.0,
+        "mapped_team_name": "Guingamp"
+    }, {
+        "old_team_names": "Quevilly Rouen",
+        "mapped_team_id": 431.0,
+        "mapped_team_name": "Quevilly"
+    }, {
+        "old_team_names": "Sochaux",
+        "mapped_team_id": 115.0,
+        "mapped_team_name": "Sochaux"
+    }, {
+        "old_team_names": "Grenoble",
+        "mapped_team_id": 101.0,
+        "mapped_team_name": "Grenoble"
+    }, {
+        "old_team_names": "Laval",
+        "mapped_team_id": 433.0,
+        "mapped_team_name": "Laval"
+    }, {
+        "old_team_names": "Niort",
+        "mapped_team_id": 113.0,
+        "mapped_team_name": "Niort"
+    }, {
+        "old_team_names": "Paris FC",
+        "mapped_team_id": 114.0,
+        "mapped_team_name": "Paris FC"
+    }, {
+        "old_team_names": "Pau FC",
+        "mapped_team_id": 1297.0,
+        "mapped_team_name": "PAU"
+    }, {
+        "old_team_names": "Rodez",
+        "mapped_team_id": 1301.0,
+        "mapped_team_name": "Rodez"
+    }, {
+        "old_team_names": "Valenciennes",
+        "mapped_team_id": 105.0,
+        "mapped_team_name": "Valenciennes"
+    }, {
+        "old_team_names": "Caen",
+        "mapped_team_id": 88.0,
+        "mapped_team_name": "Caen"
+    }, {
+        "old_team_names": "Dunkerque",
+        "mapped_team_id": 1304.0,
+        "mapped_team_name": "Dunkerque"
+    }, {
+        "old_team_names": "Nancy",
+        "mapped_team_id": 102.0,
+        "mapped_team_name": "Nancy"
+    }, {
+        "old_team_names": "Chambly",
+        "mapped_team_id": 1291.0,
+        "mapped_team_name": "Chambly Thelle FC"
+    }, {
+        "old_team_names": "Chateauroux",
+        "mapped_team_id": 107.0,
+        "mapped_team_name": "Chateauroux"
+    }, {
+        "old_team_names": "Le Mans",
+        "mapped_team_id": 1298.0,
+        "mapped_team_name": "Le Mans"
+    }, {
+        "old_team_names": "Orleans",
+        "mapped_team_id": 103.0,
+        "mapped_team_name": "Orleans"
+    }, {
+        "old_team_names": "Concarneau",
+        "mapped_team_id": 1300.0,
+        "mapped_team_name": "Concarneau"
+    }, {
+        "old_team_names": "Volos NFC",
+        "mapped_team_id": 2110.0,
+        "mapped_team_name": "Volos NFC"
+    }, {
+        "old_team_names": "Atromitos",
+        "mapped_team_id": 12260.0,
+        "mapped_team_name": "Atromitos"
+    }, {
+        "old_team_names": "Lamia",
+        "mapped_team_id": 956.0,
+        "mapped_team_name": "Lamia"
+    }, {
+        "old_team_names": "PAOK",
+        "mapped_team_id": 619.0,
+        "mapped_team_name": "PAOK"
+    }, {
+        "old_team_names": "Panathinaikos",
+        "mapped_team_id": 617.0,
+        "mapped_team_name": "Panathinaikos"
+    }, {
+        "old_team_names": "Aris",
+        "mapped_team_id": 1123.0,
+        "mapped_team_name": "Aris Thessalonikis"
+    }, {
+        "old_team_names": "Olympiakos",
+        "mapped_team_id": 553.0,
+        "mapped_team_name": "Olympiakos Piraeus"
+    }, {
+        "old_team_names": "Ionikos",
+        "mapped_team_id": null,
+        "mapped_team_name": null
+    }, {
+        "old_team_names": "Giannina",
+        "mapped_team_id": 950.0,
+        "mapped_team_name": "PAS Giannina"
+    }, {
+        "old_team_names": "AEK",
+        "mapped_team_id": 575.0,
+        "mapped_team_name": "AEK Athens FC"
+    }, {
+        "old_team_names": "Panetolikos",
+        "mapped_team_id": 949.0,
+        "mapped_team_name": "Panetolikos"
+    }, {
+        "old_team_names": "OFI Crete",
+        "mapped_team_id": 1124.0,
+        "mapped_team_name": "OFI"
+    }, {
+        "old_team_names": "Asteras Tripolis",
+        "mapped_team_id": 955.0,
+        "mapped_team_name": "Asteras Tripolis"
+    }, {
+        "old_team_names": "Levadeiakos",
+        "mapped_team_id": 957.0,
+        "mapped_team_name": "Levadiakos"
+    }, {
+        "old_team_names": "Apollon",
+        "mapped_team_id": 602.0,
+        "mapped_team_name": "Apollon Limassol"
+    }, {
+        "old_team_names": "Larisa",
+        "mapped_team_id": 953.0,
+        "mapped_team_name": "Larisa"
+    }, {
+        "old_team_names": "Panionios",
+        "mapped_team_id": 622.0,
+        "mapped_team_name": "Panionios"
+    }, {
+        "old_team_names": "Xanthi",
+        "mapped_team_id": null,
+        "mapped_team_name": null
+    }, {
+        "old_team_names": "Kifisia",
+        "mapped_team_id": 5050.0,
+        "mapped_team_name": "Kifisia"
+    }, {
+        "old_team_names": "Panserraikos",
+        "mapped_team_id": 2099.0,
+        "mapped_team_name": "Panserraikos"
+    }, {
+        "old_team_names": "Milan",
+        "mapped_team_id": 489.0,
+        "mapped_team_name": "AC Milan"
+    }, {
+        "old_team_names": "Sampdoria",
+        "mapped_team_id": 498.0,
+        "mapped_team_name": "Sampdoria"
+    }, {
+        "old_team_names": "Lecce",
+        "mapped_team_id": 867.0,
+        "mapped_team_name": "Lecce"
+    }, {
+        "old_team_names": "Monza",
+        "mapped_team_id": 1579.0,
+        "mapped_team_name": "Monza"
+    }, {
+        "old_team_names": "Fiorentina",
+        "mapped_team_id": 502.0,
+        "mapped_team_name": "Fiorentina"
+    }, {
+        "old_team_names": "Lazio",
+        "mapped_team_id": 487.0,
+        "mapped_team_name": "Lazio"
+    }, {
+        "old_team_names": "Salernitana",
+        "mapped_team_id": 514.0,
+        "mapped_team_name": "Salernitana"
+    }, {
+        "old_team_names": "Spezia",
+        "mapped_team_id": 515.0,
+        "mapped_team_name": "Spezia"
+    }, {
+        "old_team_names": "Verona",
+        "mapped_team_id": 504.0,
+        "mapped_team_name": "Verona"
+    }, {
+        "old_team_names": "Juventus",
+        "mapped_team_id": 496.0,
+        "mapped_team_name": "Juventus"
+    }, {
+        "old_team_names": "Torino",
+        "mapped_team_id": 503.0,
+        "mapped_team_name": "Torino"
+    }, {
+        "old_team_names": "Udinese",
+        "mapped_team_id": 494.0,
+        "mapped_team_name": "Udinese"
+    }, {
+        "old_team_names": "Inter",
+        "mapped_team_id": 505.0,
+        "mapped_team_name": "Inter"
+    }, {
+        "old_team_names": "Sassuolo",
+        "mapped_team_id": 488.0,
+        "mapped_team_name": "Sassuolo"
+    }, {
+        "old_team_names": "Empoli",
+        "mapped_team_id": 511.0,
+        "mapped_team_name": "Empoli"
+    }, {
+        "old_team_names": "Napoli",
+        "mapped_team_id": 492.0,
+        "mapped_team_name": "Napoli"
+    }, {
+        "old_team_names": "Atalanta",
+        "mapped_team_id": 499.0,
+        "mapped_team_name": "Atalanta"
+    }, {
+        "old_team_names": "Bologna",
+        "mapped_team_id": 500.0,
+        "mapped_team_name": "Bologna"
+    }, {
+        "old_team_names": "Roma",
+        "mapped_team_id": 497.0,
+        "mapped_team_name": "AS Roma"
+    }, {
+        "old_team_names": "Cremonese",
+        "mapped_team_id": 520.0,
+        "mapped_team_name": "Cremonese"
+    }, {
+        "old_team_names": "Cagliari",
+        "mapped_team_id": 490.0,
+        "mapped_team_name": "Cagliari"
+    }, {
+        "old_team_names": "Genoa",
+        "mapped_team_id": 495.0,
+        "mapped_team_name": "Genoa"
+    }, {
+        "old_team_names": "Venezia",
+        "mapped_team_id": 517.0,
+        "mapped_team_name": "Venezia"
+    }, {
+        "old_team_names": "Parma",
+        "mapped_team_id": 523.0,
+        "mapped_team_name": "Parma"
+    }, {
+        "old_team_names": "Crotone",
+        "mapped_team_id": 501.0,
+        "mapped_team_name": "Crotone"
+    }, {
+        "old_team_names": "Benevento",
+        "mapped_team_id": 506.0,
+        "mapped_team_name": "Benevento"
+    }, {
+        "old_team_names": "Spal",
+        "mapped_team_id": 493.0,
+        "mapped_team_name": "Spal"
+    }, {
+        "old_team_names": "Brescia",
+        "mapped_team_id": 518.0,
+        "mapped_team_name": "Brescia"
+    }, {
+        "old_team_names": "Frosinone",
+        "mapped_team_id": 512.0,
+        "mapped_team_name": "Frosinone"
+    }, {
+        "old_team_names": "Cittadella",
+        "mapped_team_id": 510.0,
+        "mapped_team_name": "Cittadella"
+    }, {
+        "old_team_names": "Como",
+        "mapped_team_id": 895.0,
+        "mapped_team_name": "Como"
+    }, {
+        "old_team_names": "Palermo",
+        "mapped_team_id": 522.0,
+        "mapped_team_name": "Palermo"
+    }, {
+        "old_team_names": "Ascoli",
+        "mapped_team_id": 507.0,
+        "mapped_team_name": "Ascoli"
+    }, {
+        "old_team_names": "Modena",
+        "mapped_team_id": 899.0,
+        "mapped_team_name": "Modena"
+    }, {
+        "old_team_names": "Bari",
+        "mapped_team_id": 508.0,
+        "mapped_team_name": "Bari"
+    }, {
+        "old_team_names": "Perugia",
+        "mapped_team_id": 524.0,
+        "mapped_team_name": "Perugia"
+    }, {
+        "old_team_names": "Cosenza",
+        "mapped_team_id": 10137.0,
+        "mapped_team_name": "Cosenza"
+    }, {
+        "old_team_names": "Pisa",
+        "mapped_team_id": 801.0,
+        "mapped_team_name": "Pisa"
+    }, {
+        "old_team_names": "Sudtirol",
+        "mapped_team_id": 1578.0,
+        "mapped_team_name": "Sudtirol"
+    }, {
+        "old_team_names": "Ternana",
+        "mapped_team_id": 516.0,
+        "mapped_team_name": "Ternana"
+    }, {
+        "old_team_names": "Reggina",
+        "mapped_team_id": 1692.0,
+        "mapped_team_name": "Reggina"
+    }, {
+        "old_team_names": "Pordenone",
+        "mapped_team_id": null,
+        "mapped_team_name": null
+    }, {
+        "old_team_names": "Vicenza",
+        "mapped_team_id": 1584.0,
+        "mapped_team_name": "Vicenza Virtus"
+    }, {
+        "old_team_names": "Alessandria",
+        "mapped_team_id": 878.0,
+        "mapped_team_name": "Alessandria"
+    }, {
+        "old_team_names": "Pescara",
+        "mapped_team_id": 525.0,
+        "mapped_team_name": "Pescara"
+    }, {
+        "old_team_names": "Reggiana",
+        "mapped_team_id": 880.0,
+        "mapped_team_name": "Reggiana"
+    }, {
+        "old_team_names": "Chievo",
+        "mapped_team_id": 491,
+        "mapped_team_name": "Chievo"
+    }, {
+        "old_team_names": "Virtus Entella",
+        "mapped_team_id": 527.0,
+        "mapped_team_name": "Virtus Entella"
+    }, {
+        "old_team_names": "Livorno",
+        "mapped_team_id": 868.0,
+        "mapped_team_name": "Livorno"
+    }, {
+        "old_team_names": "Trapani",
+        "mapped_team_id": 17862.0,
+        "mapped_team_name": "Trapani 1905"
+    }, {
+        "old_team_names": "Juve Stabia",
+        "mapped_team_id": 863.0,
+        "mapped_team_name": "Juve Stabia"
+    }, {
+        "old_team_names": "FeralpiSalo",
+        "mapped_team_id": 884.0,
+        "mapped_team_name": "Feralpisalo"
+    }, {
+        "old_team_names": "Catanzaro",
+        "mapped_team_id": 1687.0,
+        "mapped_team_name": "Catanzaro"
+    }, {
+        "old_team_names": "Lecco",
+        "mapped_team_id": 6379.0,
+        "mapped_team_name": "Lecco"
+    }, {
+        "old_team_names": "Heerenveen",
+        "mapped_team_id": 210.0,
+        "mapped_team_name": "Heerenveen"
+    }, {
+        "old_team_names": "For Sittard",
+        "mapped_team_id": 205.0,
+        "mapped_team_name": "Fortuna Sittard"
+    }, {
+        "old_team_names": "Cambuur",
+        "mapped_team_id": 420.0,
+        "mapped_team_name": "Cambuur"
+    }, {
+        "old_team_names": "PSV Eindhoven",
+        "mapped_team_id": 197.0,
+        "mapped_team_name": "PSV Eindhoven"
+    }, {
+        "old_team_names": "Waalwijk",
+        "mapped_team_id": 417.0,
+        "mapped_team_name": "Waalwijk"
+    }, {
+        "old_team_names": "Groningen",
+        "mapped_team_id": 202.0,
+        "mapped_team_name": "Groningen"
+    }, {
+        "old_team_names": "Nijmegen",
+        "mapped_team_id": 413.0,
+        "mapped_team_name": "NEC Nijmegen"
+    }, {
+        "old_team_names": "Vitesse",
+        "mapped_team_id": 200.0,
+        "mapped_team_name": "Vitesse"
+    }, {
+        "old_team_names": "AZ Alkmaar",
+        "mapped_team_id": 201.0,
+        "mapped_team_name": "AZ Alkmaar"
+    }, {
+        "old_team_names": "Excelsior",
+        "mapped_team_id": 196.0,
+        "mapped_team_name": "Excelsior"
+    }, {
+        "old_team_names": "Go Ahead Eagles",
+        "mapped_team_id": 410.0,
+        "mapped_team_name": "GO Ahead Eagles"
+    }, {
+        "old_team_names": "FC Emmen",
+        "mapped_team_id": 208.0,
+        "mapped_team_name": "Emmen"
+    }, {
+        "old_team_names": "Utrecht",
+        "mapped_team_id": 207.0,
+        "mapped_team_name": "Utrecht"
+    }, {
+        "old_team_names": "Feyenoord",
+        "mapped_team_id": 209.0,
+        "mapped_team_name": "Feyenoord"
+    }, {
+        "old_team_names": "Volendam",
+        "mapped_team_id": 416.0,
+        "mapped_team_name": "FC Volendam"
+    }, {
+        "old_team_names": "Ajax",
+        "mapped_team_id": 194.0,
+        "mapped_team_name": "Ajax"
+    }, {
+        "old_team_names": "Twente",
+        "mapped_team_id": 415.0,
+        "mapped_team_name": "Twente"
+    }, {
+        "old_team_names": "Sparta Rotterdam",
+        "mapped_team_id": 426.0,
+        "mapped_team_name": "Sparta Rotterdam"
+    }, {
+        "old_team_names": "Heracles",
+        "mapped_team_id": 206.0,
+        "mapped_team_name": "Heracles"
+    }, {
+        "old_team_names": "Zwolle",
+        "mapped_team_id": 193.0,
+        "mapped_team_name": "PEC Zwolle"
+    }, {
+        "old_team_names": "Willem II",
+        "mapped_team_id": 195.0,
+        "mapped_team_name": "Willem II"
+    }, {
+        "old_team_names": "VVV Venlo",
+        "mapped_team_id": 204.0,
+        "mapped_team_name": "VVV Venlo"
+    }, {
+        "old_team_names": "Den Haag",
+        "mapped_team_id": 198.0,
+        "mapped_team_name": "ADO Den Haag"
+    }, {
+        "old_team_names": "Almere City",
+        "mapped_team_id": 419.0,
+        "mapped_team_name": "Almere City FC"
+    }, {
+        "old_team_names": "Benfica",
+        "mapped_team_id": 211.0,
+        "mapped_team_name": "Benfica"
+    }, {
+        "old_team_names": "Rio Ave",
+        "mapped_team_id": 226.0,
+        "mapped_team_name": "Rio Ave"
+    }, {
+        "old_team_names": "Estoril",
+        "mapped_team_id": 230.0,
+        "mapped_team_name": "Estoril"
+    }, {
+        "old_team_names": "Porto",
+        "mapped_team_id": 212.0,
+        "mapped_team_name": "FC Porto"
+    }, {
+        "old_team_names": "Santa Clara",
+        "mapped_team_id": 227.0,
+        "mapped_team_name": "Santa Clara"
+    }, {
+        "old_team_names": "Sp Braga",
+        "mapped_team_id": 217.0,
+        "mapped_team_name": "SC Braga"
+    }, {
+        "old_team_names": "Chaves",
+        "mapped_team_id": 223.0,
+        "mapped_team_name": "Chaves"
+    }, {
+        "old_team_names": "Portimonense",
+        "mapped_team_id": 216.0,
+        "mapped_team_name": "Portimonense"
+    }, {
+        "old_team_names": "Gil Vicente",
+        "mapped_team_id": 762.0,
+        "mapped_team_name": "GIL Vicente"
+    }, {
+        "old_team_names": "Famalicao",
+        "mapped_team_id": 242.0,
+        "mapped_team_name": "Famalicao"
+    }, {
+        "old_team_names": "Casa Pia",
+        "mapped_team_id": 4716.0,
+        "mapped_team_name": "Casa Pia"
+    }, {
+        "old_team_names": "Sp Lisbon",
+        "mapped_team_id": 228.0,
+        "mapped_team_name": "Sporting CP"
+    }, {
+        "old_team_names": "Boavista",
+        "mapped_team_id": 222.0,
+        "mapped_team_name": "Boavista"
+    }, {
+        "old_team_names": "Vizela",
+        "mapped_team_id": 810.0,
+        "mapped_team_name": "Vizela"
+    }, {
+        "old_team_names": "Guimaraes",
+        "mapped_team_id": 224.0,
+        "mapped_team_name": "Guimaraes"
+    }, {
+        "old_team_names": "Maritimo",
+        "mapped_team_id": 214.0,
+        "mapped_team_name": "Maritimo"
+    }, {
+        "old_team_names": "Arouca",
+        "mapped_team_id": 240.0,
+        "mapped_team_name": "Arouca"
+    }, {
+        "old_team_names": "Pacos Ferreira",
+        "mapped_team_id": 234.0,
+        "mapped_team_name": "Pacos Ferreira"
+    }, {
+        "old_team_names": "Moreirense",
+        "mapped_team_id": 215.0,
+        "mapped_team_name": "Moreirense"
+    }, {
+        "old_team_names": "Tondela",
+        "mapped_team_id": 218.0,
+        "mapped_team_name": "Tondela"
+    }, {
+        "old_team_names": "Belenenses",
+        "mapped_team_id": 17692.0,
+        "mapped_team_name": "CF Os Belenenses"
+    }, {
+        "old_team_names": "Nacional",
+        "mapped_team_id": 225.0,
+        "mapped_team_name": "Nacional"
+    }, {
+        "old_team_names": "Farense",
+        "mapped_team_id": 231.0,
+        "mapped_team_name": "Farense"
+    }, {
+        "old_team_names": "Setubal",
+        "mapped_team_id": 219.0,
+        "mapped_team_name": "Vitoria Setubal"
+    }, {
+        "old_team_names": "Aves",
+        "mapped_team_id": 21595.0,
+        "mapped_team_name": "AVS"
+    }, {
+        "old_team_names": "Estrela",
+        "mapped_team_id": 15130.0,
+        "mapped_team_name": "Estrela"
+    }, {
+        "old_team_names": "Livingston",
+        "mapped_team_id": 255.0,
+        "mapped_team_name": "Livingston"
+    }, {
+        "old_team_names": "Hearts",
+        "mapped_team_id": 254.0,
+        "mapped_team_name": "Heart OF Midlothian"
+    }, {
+        "old_team_names": "Kilmarnock",
+        "mapped_team_id": 250.0,
+        "mapped_team_name": "Kilmarnock"
+    }, {
+        "old_team_names": "St Johnstone",
+        "mapped_team_id": 258.0,
+        "mapped_team_name": "ST Johnstone"
+    }, {
+        "old_team_names": "St Mirren",
+        "mapped_team_id": 251.0,
+        "mapped_team_name": "ST Mirren"
+    }, {
+        "old_team_names": "Celtic",
+        "mapped_team_id": 247.0,
+        "mapped_team_name": "Celtic"
+    }, {
+        "old_team_names": "Aberdeen",
+        "mapped_team_id": 252.0,
+        "mapped_team_name": "Aberdeen"
+    }, {
+        "old_team_names": "Motherwell",
+        "mapped_team_id": 256.0,
+        "mapped_team_name": "Motherwell"
+    }, {
+        "old_team_names": "Rangers",
+        "mapped_team_id": 257.0,
+        "mapped_team_name": "Rangers"
+    }, {
+        "old_team_names": "Ross County",
+        "mapped_team_id": 902.0,
+        "mapped_team_name": "Ross County"
+    }, {
+        "old_team_names": "Hibernian",
+        "mapped_team_id": 249.0,
+        "mapped_team_name": "Hibernian"
+    }, {
+        "old_team_names": "Dundee United",
+        "mapped_team_id": 1386.0,
+        "mapped_team_name": "Dundee Utd"
+    }, {
+        "old_team_names": "Dundee",
+        "mapped_team_id": 253.0,
+        "mapped_team_name": "Dundee"
+    }, {
+        "old_team_names": "Hamilton",
+        "mapped_team_id": 248.0,
+        "mapped_team_name": "Hamilton Academical"
+    }, {
+        "old_team_names": "Ayr",
+        "mapped_team_id": 1387.0,
+        "mapped_team_name": "Ayr Utd"
+    }, {
+        "old_team_names": "Cove Rangers",
+        "mapped_team_id": 6763.0,
+        "mapped_team_name": "Cove Rangers"
+    }, {
+        "old_team_names": "Inverness C",
+        "mapped_team_id": 903.0,
+        "mapped_team_name": "Inverness CT"
+    }, {
+        "old_team_names": "Queens Park",
+        "mapped_team_id": 6778.0,
+        "mapped_team_name": "Queen's Park"
+    }, {
+        "old_team_names": "Arbroath",
+        "mapped_team_id": 4249.0,
+        "mapped_team_name": "Arbroath"
+    }, {
+        "old_team_names": "Morton",
+        "mapped_team_id": 1383.0,
+        "mapped_team_name": "Morton"
+    }, {
+        "old_team_names": "Partick",
+        "mapped_team_id": 901.0,
+        "mapped_team_name": "Partick"
+    }, {
+        "old_team_names": "Raith Rvs",
+        "mapped_team_id": 1385.0,
+        "mapped_team_name": "Raith Rovers"
+    }, {
+        "old_team_names": "Dunfermline",
+        "mapped_team_id": 1388.0,
+        "mapped_team_name": "Dunfermline"
+    }, {
+        "old_team_names": "Queen of Sth",
+        "mapped_team_id": 1384.0,
+        "mapped_team_name": "Queen of the South"
+    }, {
+        "old_team_names": "Alloa",
+        "mapped_team_id": 1391.0,
+        "mapped_team_name": "Alloa Athletic"
+    }, {
+        "old_team_names": "Airdrie Utd",
+        "mapped_team_id": 4668.0,
+        "mapped_team_name": "Airdrie United"
+    }, {
+        "old_team_names": "Falkirk",
+        "mapped_team_id": 1389.0,
+        "mapped_team_name": "Falkirk"
+    }, {
+        "old_team_names": "Kelty Hearts",
+        "mapped_team_id": 6773.0,
+        "mapped_team_name": "Kelty Hearts"
+    }, {
+        "old_team_names": "Peterhead",
+        "mapped_team_id": 6777.0,
+        "mapped_team_name": "Peterhead"
+    }, {
+        "old_team_names": "Clyde",
+        "mapped_team_id": 6762.0,
+        "mapped_team_name": "Clyde"
+    }, {
+        "old_team_names": "FC Edinburgh",
+        "mapped_team_id": 6766.0,
+        "mapped_team_name": "Edinburgh City"
+    }, {
+        "old_team_names": "Montrose",
+        "mapped_team_id": 4251.0,
+        "mapped_team_name": "Montrose"
+    }, {
+        "old_team_names": "East Fife",
+        "mapped_team_id": 6764.0,
+        "mapped_team_name": "East Fife"
+    }, {
+        "old_team_names": "Dumbarton",
+        "mapped_team_id": 1382.0,
+        "mapped_team_name": "Dumbarton"
+    }, {
+        "old_team_names": "Forfar",
+        "mapped_team_id": 4250.0,
+        "mapped_team_name": "Forfar Athletic"
+    }, {
+        "old_team_names": "Stranraer",
+        "mapped_team_id": 6785.0,
+        "mapped_team_name": "Stranraer"
+    }, {
+        "old_team_names": "Stirling",
+        "mapped_team_id": 4669.0,
+        "mapped_team_name": "Stirling Albion"
+    }, {
+        "old_team_names": "Annan Athletic",
+        "mapped_team_id": 6757.0,
+        "mapped_team_name": "Annan Athletic"
+    }, {
+        "old_team_names": "Edinburgh City",
+        "mapped_team_id": 6766.0,
+        "mapped_team_name": "Edinburgh City"
+    }, {
+        "old_team_names": "Bonnyrigg Rose",
+        "mapped_team_id": 7431.0,
+        "mapped_team_name": "Bonnyrigg Rose Athletic"
+    }, {
+        "old_team_names": "Elgin",
+        "mapped_team_id": 6767.0,
+        "mapped_team_name": "Elgin City"
+    }, {
+        "old_team_names": "Stenhousemuir",
+        "mapped_team_id": 6784.0,
+        "mapped_team_name": "Stenhousemuir"
+    }, {
+        "old_team_names": "Albion Rvs",
+        "mapped_team_id": 6756.0,
+        "mapped_team_name": "Albion Rovers"
+    }, {
+        "old_team_names": "Cowdenbeath",
+        "mapped_team_id": 4667.0,
+        "mapped_team_name": "Cowdenbeath"
+    }, {
+        "old_team_names": "Brechin",
+        "mapped_team_id": 1390.0,
+        "mapped_team_name": "Brechin"
+    }, {
+        "old_team_names": "Spartans",
+        "mapped_team_id": 6781.0,
+        "mapped_team_name": "Spartans"
+    }, {
+        "old_team_names": "Osasuna",
+        "mapped_team_id": 727.0,
+        "mapped_team_name": "Osasuna"
+    }, {
+        "old_team_names": "Celta",
+        "mapped_team_id": 538.0,
+        "mapped_team_name": "Celta Vigo"
+    }, {
+        "old_team_names": "Valladolid",
+        "mapped_team_id": 720.0,
+        "mapped_team_name": "Valladolid"
+    }, {
+        "old_team_names": "Barcelona",
+        "mapped_team_id": 529.0,
+        "mapped_team_name": "Barcelona"
+    }, {
+        "old_team_names": "Cadiz",
+        "mapped_team_id": 724.0,
+        "mapped_team_name": "Cadiz"
+    }, {
+        "old_team_names": "Valencia",
+        "mapped_team_id": 532.0,
+        "mapped_team_name": "Valencia"
+    }, {
+        "old_team_names": "Almeria",
+        "mapped_team_id": 723.0,
+        "mapped_team_name": "Almeria"
+    }, {
+        "old_team_names": "Ath Bilbao",
+        "mapped_team_id": 531.0,
+        "mapped_team_name": "Athletic Club"
+    }, {
+        "old_team_names": "Getafe",
+        "mapped_team_id": 546.0,
+        "mapped_team_name": "Getafe"
+    }, {
+        "old_team_names": "Betis",
+        "mapped_team_id": 543.0,
+        "mapped_team_name": "Real Betis"
+    }, {
+        "old_team_names": "Espanol",
+        "mapped_team_id": 540.0,
+        "mapped_team_name": "Espanyol"
+    }, {
+        "old_team_names": "Sevilla",
+        "mapped_team_id": 536.0,
+        "mapped_team_name": "Sevilla"
+    }, {
+        "old_team_names": "Mallorca",
+        "mapped_team_id": 798.0,
+        "mapped_team_name": "Mallorca"
+    }, {
+        "old_team_names": "Ath Madrid",
+        "mapped_team_id": 530.0,
+        "mapped_team_name": "Atletico Madrid"
+    }, {
+        "old_team_names": "Sociedad",
+        "mapped_team_id": 548.0,
+        "mapped_team_name": "Real Sociedad"
+    }, {
+        "old_team_names": "Elche",
+        "mapped_team_id": 797.0,
+        "mapped_team_name": "Elche"
+    }, {
+        "old_team_names": "Girona",
+        "mapped_team_id": 547.0,
+        "mapped_team_name": "Girona"
+    }, {
+        "old_team_names": "Vallecano",
+        "mapped_team_id": 728.0,
+        "mapped_team_name": "Rayo Vallecano"
+    }, {
+        "old_team_names": "Real Madrid",
+        "mapped_team_id": 541.0,
+        "mapped_team_name": "Real Madrid"
+    }, {
+        "old_team_names": "Villarreal",
+        "mapped_team_id": 533.0,
+        "mapped_team_name": "Villarreal"
+    }, {
+        "old_team_names": "Alaves",
+        "mapped_team_id": 542.0,
+        "mapped_team_name": "Alaves"
+    }, {
+        "old_team_names": "Granada",
+        "mapped_team_id": 715.0,
+        "mapped_team_name": "Granada CF"
+    }, {
+        "old_team_names": "Levante",
+        "mapped_team_id": 539.0,
+        "mapped_team_name": "Levante"
+    }, {
+        "old_team_names": "Eibar",
+        "mapped_team_id": 545.0,
+        "mapped_team_name": "Eibar"
+    }, {
+        "old_team_names": "Huesca",
+        "mapped_team_id": 726.0,
+        "mapped_team_name": "Huesca"
+    }, {
+        "old_team_names": "Leganes",
+        "mapped_team_id": 537.0,
+        "mapped_team_name": "Leganes"
+    }, {
+        "old_team_names": "Las Palmas",
+        "mapped_team_id": 534.0,
+        "mapped_team_name": "Las Palmas"
+    }, {
+        "old_team_names": "Mirandes",
+        "mapped_team_id": 799.0,
+        "mapped_team_name": "Mirandes"
+    }, {
+        "old_team_names": "Santander",
+        "mapped_team_id": 4665.0,
+        "mapped_team_name": "Racing Santander"
+    }, {
+        "old_team_names": "Ibiza",
+        "mapped_team_id": 9390.0,
+        "mapped_team_name": "Ibiza"
+    }, {
+        "old_team_names": "Burgos",
+        "mapped_team_id": 9580.0,
+        "mapped_team_name": "Burgos"
+    }, {
+        "old_team_names": "Oviedo",
+        "mapped_team_id": 718.0,
+        "mapped_team_name": "Oviedo"
+    }, {
+        "old_team_names": "Lugo",
+        "mapped_team_id": 716.0,
+        "mapped_team_name": "Lugo"
+    }, {
+        "old_team_names": "Cartagena",
+        "mapped_team_id": 5262.0,
+        "mapped_team_name": "FC Cartagena"
+    }, {
+        "old_team_names": "Villarreal B",
+        "mapped_team_id": 9595.0,
+        "mapped_team_name": "Villarreal II"
+    }, {
+        "old_team_names": "Sp Gijon",
+        "mapped_team_id": 731.0,
+        "mapped_team_name": "Sporting Gijon"
+    }, {
+        "old_team_names": "Albacete",
+        "mapped_team_id": 722.0,
+        "mapped_team_name": "Albacete"
+    }, {
+        "old_team_names": "Zaragoza",
+        "mapped_team_id": 732.0,
+        "mapped_team_name": "Zaragoza"
+    }, {
+        "old_team_names": "Tenerife",
+        "mapped_team_id": 719.0,
+        "mapped_team_name": "Tenerife"
+    }, {
+        "old_team_names": "Ponferradina",
+        "mapped_team_id": 4907.0,
+        "mapped_team_name": "Ponferradina"
+    }, {
+        "old_team_names": "Malaga",
+        "mapped_team_id": 535.0,
+        "mapped_team_name": "Malaga"
+    }, {
+        "old_team_names": "Andorra",
+        "mapped_team_id": 8157.0,
+        "mapped_team_name": "FC Andorra"
+    }, {
+        "old_team_names": "Sociedad B",
+        "mapped_team_id": 9585.0,
+        "mapped_team_name": "Real Sociedad II"
+    }, {
+        "old_team_names": "Fuenlabrada",
+        "mapped_team_id": 4906.0,
+        "mapped_team_name": "Fuenlabrada"
+    }, {
+        "old_team_names": "Alcorcon",
+        "mapped_team_id": 711.0,
+        "mapped_team_name": "Alcorcon"
+    }, {
+        "old_team_names": "Amorebieta",
+        "mapped_team_id": 9380.0,
+        "mapped_team_name": "Amorebieta"
+    }, {
+        "old_team_names": "Castellon",
+        "mapped_team_id": 22138.0,
+        "mapped_team_name": "Castellonense"
+    }, {
+        "old_team_names": "Logrones",
+        "mapped_team_id": 5280.0,
+        "mapped_team_name": "UD Logro\u00f1\u00e9s"
+    }, {
+        "old_team_names": "Sabadell",
+        "mapped_team_id": 9593.0,
+        "mapped_team_name": "Sabadell"
+    }, {
+        "old_team_names": "La Coruna",
+        "mapped_team_id": 544.0,
+        "mapped_team_name": "Deportivo La Coruna"
+    }, {
+        "old_team_names": "Numancia",
+        "mapped_team_id": 717.0,
+        "mapped_team_name": "Numancia"
+    }, {
+        "old_team_names": "Extremadura UD",
+        "mapped_team_id": 24612.0,
+        "mapped_team_name": "Extremadura 1924"
+    }, {
+        "old_team_names": "Ferrol",
+        "mapped_team_id": 9409.0,
+        "mapped_team_name": "Racing Ferrol"
+    }, {
+        "old_team_names": "Eldense",
+        "mapped_team_id": 9692.0,
+        "mapped_team_name": "Eldense"
+    }, {
+        "old_team_names": "Istanbulspor",
+        "mapped_team_id": 12449.0,
+        "mapped_team_name": "\u0130stanbulspor"
+    }, {
+        "old_team_names": "Sivasspor",
+        "mapped_team_id": 1002.0,
+        "mapped_team_name": "Sivasspor"
+    }, {
+        "old_team_names": "Besiktas",
+        "mapped_team_id": 549.0,
+        "mapped_team_name": "Besiktas"
+    }, {
+        "old_team_names": "Giresunspor",
+        "mapped_team_id": 3574.0,
+        "mapped_team_name": "Giresunspor"
+    }, {
+        "old_team_names": "Karagumruk",
+        "mapped_team_id": 3589.0,
+        "mapped_team_name": "Fatih Karag\u00fcmr\u00fck"
+    }, {
+        "old_team_names": "Antalyaspor",
+        "mapped_team_id": 1005.0,
+        "mapped_team_name": "Antalyaspor"
+    }, {
+        "old_team_names": "Buyuksehyr",
+        "mapped_team_id": 564.0,
+        "mapped_team_name": "Istanbul Basaksehir"
+    }, {
+        "old_team_names": "Ankaragucu",
+        "mapped_team_id": 1010.0,
+        "mapped_team_name": "Ankaragucu"
+    }, {
+        "old_team_names": "Fenerbahce",
+        "mapped_team_id": 611.0,
+        "mapped_team_name": "Fenerbahce"
+    }, {
+        "old_team_names": "Trabzonspor",
+        "mapped_team_id": 998.0,
+        "mapped_team_name": "Trabzonspor"
+    }, {
+        "old_team_names": "Kayserispor",
+        "mapped_team_id": 1001.0,
+        "mapped_team_name": "Kayserispor"
+    }, {
+        "old_team_names": "Ad. Demirspor",
+        "mapped_team_id": 3563.0,
+        "mapped_team_name": "Adana Demirspor"
+    }, {
+        "old_team_names": "Galatasaray",
+        "mapped_team_id": 645.0,
+        "mapped_team_name": "Galatasaray"
+    }, {
+        "old_team_names": "Gaziantep",
+        "mapped_team_id": 3573.0,
+        "mapped_team_name": "Gazi\u015fehir Gaziantep"
+    }, {
+        "old_team_names": "Umraniyespor",
+        "mapped_team_id": 3577.0,
+        "mapped_team_name": "\u00dcmraniyespor"
+    }, {
+        "old_team_names": "Alanyaspor",
+        "mapped_team_id": 996.0,
+        "mapped_team_name": "Alanyaspor"
+    }, {
+        "old_team_names": "Konyaspor",
+        "mapped_team_id": 607.0,
+        "mapped_team_name": "Konyaspor"
+    }, {
+        "old_team_names": "Kasimpasa",
+        "mapped_team_id": 1004.0,
+        "mapped_team_name": "Kasimpasa"
+    }, {
+        "old_team_names": "Hatayspor",
+        "mapped_team_id": 3575.0,
+        "mapped_team_name": "Hatayspor"
+    }, {
+        "old_team_names": "Altay",
+        "mapped_team_id": 3566.0,
+        "mapped_team_name": "Altay"
+    }, {
+        "old_team_names": "Yeni Malatyaspor",
+        "mapped_team_id": 999.0,
+        "mapped_team_name": "Yeni Malatyaspor"
+    }, {
+        "old_team_names": "Rizespor",
+        "mapped_team_id": 1007.0,
+        "mapped_team_name": "Rizespor"
+    }, {
+        "old_team_names": "Goztep",
+        "mapped_team_id": 994.0,
+        "mapped_team_name": "Goztepe"
+    }, {
+        "old_team_names": "Genclerbirligi",
+        "mapped_team_id": 997.0,
+        "mapped_team_name": "Genclerbirligi"
+    }, {
+        "old_team_names": "Denizlispor",
+        "mapped_team_id": 3570.0,
+        "mapped_team_name": "Denizlispor"
+    }, {
+        "old_team_names": "Erzurum BB",
+        "mapped_team_id": 1009.0,
+        "mapped_team_name": "Erzurum BB"
+    }, {
+        "old_team_names": "Pendikspor",
+        "mapped_team_id": 3601.0,
+        "mapped_team_name": "Pendikspor"
+    }, {
+        "old_team_names": "Samsunspor",
+        "mapped_team_id": 3603.0,
+        "mapped_team_name": "Samsunspor"
+    }
+]
