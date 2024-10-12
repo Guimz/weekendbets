@@ -29,18 +29,19 @@ def import_json_files_as_dataframe(folder_path, day):
 def upcoming_home_wins_ui():
     st.header("Upcoming Home Wins")
 
-    st.write("This page shows upcoming home teams that are favourites to win, based on the odds from various bookmakers. The idea behind this is that we do the homework for you, so you don't have to. "
-             "The categories are based on historical data that we have narrowed down certain type of matches that have occured in the past and the % each of those scenarios have won. "
-             "This ensures that by selecting games that fall into these categories, you are more likely to find value in the bets you make. As we move forward, we will be adding more details to each match to show "
-             "league positions, form, attacking and defensive strength of the teams, all of which will have a score and based on this, we will be able to show you which fixtures have the higher chance of winning."
-             "This is a work in progress but we hope you find this useful even as it is and continues to grow.")
-    # st.write("The categories are based on historical data that we have narrowed down certain type of matches that have occured in the past and the % each of those scenarios have won.")
-    # st.write("This ensures that by selecting games that fall into these categories, you are more likely to find value in the bets you make.")
-    # st.write("As we move forward, we will be adding more details to each match to show league positions, form, attacking and defensive strength of the teams, all of which will have a score and based on this, we will be able to show you which fixtures have the higher chance of winning.")
-    # st.write("This is a work in progress but we hope you find this useful even as it is and continues to grow.")
-
-    st.write("You can filter the below table by date, league, category and more to find the matches that you are interested in. This list below will only ever show the upcoming favourite home wins for the next 8 days."
-             "If you want to see the history of home wins, you can go to the 'Home wins history' page.")
+    @st.dialog("Info", width="large")
+    def info_dialog():
+        st.write("This page shows upcoming home teams that are favourites to win, based on the odds from various bookmakers. The idea behind this is that we do the homework for you, so you don't have to. "
+                "The categories are based on historical data that we have narrowed down certain type of matches that have occured in the past and the % each of those scenarios have won. "
+                "This ensures that by selecting games that fall into these categories, you are more likely to find value in the bets you make. As we move forward, we will be adding more details to each match to show "
+                "league positions, form, attacking and defensive strength of the teams, all of which will have a score and based on this, we will be able to show you which fixtures have the higher chance of winning."
+                "This is a work in progress but we hope you find this useful even as it is and continues to grow.")
+        
+        st.write("You can filter the below table by date, league, category and more to find the matches that you are interested in. This list below will only ever show the upcoming favourite home wins for the next 8 days."
+                 "If you want to see the history of home wins, you can go to the 'Home wins history' page.")
+    
+    if info_dialog not in st.session_state:
+        st.button("How it works", on_click=info_dialog)
 
     st.markdown("---")
     day = date.today()
