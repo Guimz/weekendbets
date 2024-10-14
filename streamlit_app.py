@@ -43,6 +43,7 @@ def upcoming_home_wins_ui():
     if info_dialog not in st.session_state:
         st.button("How it works", on_click=info_dialog)
 
+
     st.markdown("---")
     day = date.today()
     dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
@@ -116,9 +117,14 @@ def home_wins_history_ui():
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+
+    dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
+
     dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
 
-    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
+    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 'Expected away goals', 'H Pos', 'A Pos', 'H Pts', 'A Pts', 'H Form', 'A Form']]
 
 
     filtered_df = dataframe_explorer(dataframe, case=False)
