@@ -24,7 +24,13 @@ def import_json_files_as_dataframe(folder_path, day):
                 data = json.load(f)
                 df = pd.DataFrame(data)
                 dataframes.append(df)
-    return pd.concat(dataframes, ignore_index=True)
+    
+    dataframe = pd.concat(dataframes, ignore_index=True)
+    leagues_df = pd.read_csv('leagues.csv')
+    leagues_df = leagues_df[['league.id', 'country.name']]
+    leagues_df = leagues_df.rename(columns={'league.id': 'League id', 'country.name': 'Country'})
+    dataframe = dataframe.merge(leagues_df, on='League id', how='left')
+    return dataframe
 
 def upcoming_home_wins_ui():
     st.header("Upcoming Home Wins")
@@ -77,7 +83,7 @@ def upcoming_home_wins_ui():
 
     dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
 
-    dataframe = dataframe[['Date', 'H Pos', 'Home team', 'Away team', 'A Pos', 'League', 'Category', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 
+    dataframe = dataframe[['Date', 'H Pos', 'Home team', 'Away team', 'A Pos', 'League', 'Country', 'Category', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 
                            'Expected away goals', 'H Pts', 'A Pts', 'H Form', 'A Form']]
 
     filtered_df = dataframe_explorer(dataframe, case=False)
@@ -124,7 +130,7 @@ def home_wins_history_ui():
 
     dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
 
-    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 'Expected away goals', 'H Pos', 'A Pos', 'H Pts', 'A Pts', 'H Form', 'A Form']]
+    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Country', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 'Expected away goals', 'H Pos', 'A Pos', 'H Pts', 'A Pts', 'H Form', 'A Form']]
 
 
     filtered_df = dataframe_explorer(dataframe, case=False)
@@ -166,18 +172,30 @@ def home_wins_history_ui():
         'Draw odd': '{:.2f}',
         'Away odd': '{:.2f}',
         'Home goals': '{:.0f}',
-        'Away goals': '{:.0f}'
+        'Away goals': '{:.0f}',
+        'Expected home goals': '{:.2f}',
+        'Expected away goals': '{:.2f}',
+        'H Pos': '{:.0f}',
+        'A Pos': '{:.0f}',
+        'H Pts': '{:.0f}',
+        'A Pts': '{:.0f}'
     })
 
     st.dataframe(styled_df, use_container_width=True, height=600, hide_index=True)
 
     # Group dataframe by league and calculate home win percentage
     league_stats = dataframe.groupby('League').agg({
-        'Result': lambda x: (x == 'H').mean()
+        'Result': lambda x: (x == 'H').mean(),
+        'Home team': 'count',  # Count total matches
+        'Country': 'first'  # Get the first (and presumably only) country for each league
     }).reset_index()
+
+    league_stats = league_stats[league_stats['Home team'] > 10]
     
-    league_stats = league_stats.rename(columns={'Result': 'Home Win %'})
+    league_stats = league_stats.rename(columns={'Result': 'Home Win %', 'Home team': 'Matches'})
     league_stats['Home Win %'] = league_stats['Home Win %'] * 100
+
+    league_stats = league_stats[['League', 'Country', 'Home Win %', 'Matches']]
     
     # Sort by home win percentage in descending order
     league_stats = league_stats.sort_values('Home Win %', ascending=False)
@@ -191,6 +209,33 @@ def home_wins_history_ui():
                  title='Home Win Percentage by League',
                  labels={'Home Win %': 'Home Win Percentage'})
     st.plotly_chart(fig, use_container_width=True)
+
+
+    # Group dataframe by home team and calculate home win percentage
+    hometeam_stats = dataframe.groupby('Home team').agg({
+        'Result': lambda x: (x == 'H').mean(),
+        'League': 'count',  # Count total matches
+        'Country': 'first'  # Get the first (and presumably only) country for each league
+    }).reset_index()
+
+    hometeam_stats = hometeam_stats[hometeam_stats['League'] > 10]
+    
+    hometeam_stats = hometeam_stats.rename(columns={'Result': 'Home Win %', 'League': 'Matches'})
+    hometeam_stats['Home Win %'] = hometeam_stats['Home Win %'] * 100
+
+    hometeam_stats = hometeam_stats[['Home team', 'Country', 'Home Win %', 'Matches']]
+    
+    # Sort by home win percentage in descending order
+    hometeam_stats = hometeam_stats.sort_values('Home Win %', ascending=False)
+    # Display the league statistics
+    st.subheader("Home Win Percentage by Home team")
+    st.dataframe(hometeam_stats.style.format({'Home Win %': '{:.2f}%'}), use_container_width=True, hide_index=True)
+
+    # Optionally, create a bar chart
+    fig2 = px.bar(hometeam_stats, x='Home team', y='Home Win %', 
+                 title='Home Win Percentage by Home team',
+                 labels={'Home Win %': 'Home Win Percentage'})
+    st.plotly_chart(fig2, use_container_width=True)
 
 
 def playground_ui():
@@ -223,7 +268,7 @@ def playground_ui():
 
     dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
 
-    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
+    dataframe = dataframe[['Date', 'Result', 'Home team', 'Away team', 'League', 'Country', 'Season', 'Category', 'Home goals', 'Away goals', 'Home odd', 'Draw odd', 'Away odd']]
 
 
     filtered_df = dataframe_explorer(dataframe, case=False)
