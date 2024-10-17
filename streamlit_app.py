@@ -239,7 +239,41 @@ def home_wins_history_ui():
 
 
 def upcoming_draws_ui():
-    pass
+    st.header("Upcoming Draws")
+
+    day = date.today()
+    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
+
+    dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
+    dataframe = dataframe[dataframe['Date'] > now_date]  # Compare with UTC now_date
+
+    dataframe = dataframe.drop(columns='Fixture')
+
+    dataframe['Home odd'] = pd.to_numeric(dataframe['Home odd'])
+    dataframe['Draw odd'] = pd.to_numeric(dataframe['Draw odd'])
+    dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
+
+
+    dataframe = dataframe[dataframe['Draw odd'] < 3.2]
+    dataframe = dataframe[dataframe['Away odd'] < 3.6]
+    dataframe = dataframe[dataframe['Home odd'] < 3.2]
+
+
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+
+    dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
+
+    dataframe = dataframe[['Date', 'H Pos', 'Home team', 'Away team', 'A Pos', 'League', 'Country', 'Home odd', 'Draw odd', 'Away odd', 'Expected home goals', 
+                           'Expected away goals', 'H Pts', 'A Pts', 'H Form', 'A Form']]
+
+    filtered_df = dataframe_explorer(dataframe, case=False)
+    st.markdown('##')
+
+    filtered_df.sort_values(by='Date', ascending=True, inplace=True)
+
+    st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
 
 
 def draws_history_ui():
@@ -258,9 +292,9 @@ def draws_history_ui():
     dataframe['Draw odd'] = pd.to_numeric(dataframe['Draw odd'])
     dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
 
-    dataframe = dataframe[dataframe['Draw odd'] < 3.4]
-    dataframe = dataframe[dataframe['Away odd'] < 3.6]
-    dataframe = dataframe[dataframe['Home odd'] < 3.4]
+    dataframe = dataframe[dataframe['Draw odd'] < 3.2]
+    dataframe = dataframe[dataframe['Away odd'] < 3.5]
+    dataframe = dataframe[dataframe['Home odd'] < 3.2]
 
     # categories = ['Gold', 'Silver', 'Bronze']
     # conditions = [
