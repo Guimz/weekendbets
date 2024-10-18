@@ -2,12 +2,17 @@ import pandas as pd
 import numpy as np
 import os
 import json
+from openai import OpenAI
 from datetime import date
 import streamlit as st
+from dotenv import load_dotenv
 from datetime import datetime, timezone
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.metric_cards import style_metric_cards
 import plotly.express as px
+
+load_dotenv()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
 
@@ -92,6 +97,41 @@ def upcoming_home_wins_ui():
     filtered_df.sort_values(by='Date', ascending=True, inplace=True)
 
     st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
+
+    @st.dialog("Info", width="large")
+    def ai_prediction():
+        # client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+        client = OpenAI(api_key=OPENAI_API_KEY)
+
+        if "openai_model" not in st.session_state:
+            st.session_state["openai_model"] = "gpt-4o-mini"
+
+        question = f"Can you analyse this table of matches? Take everything into account. Also go and get information on each team such as known injuries or suspensions to key players. Take everything into consideration and give me the top 4 most likely teams to win at home with the best return on investment and why. {dataframe}"
+
+        if "messages" not in st.session_state:
+            st.session_state.messages = []
+            st.session_state.messages.append({"role": "user", "content": question})
+
+        for message in st.session_state.messages:
+            if message["role"] == "assistant":
+                with st.chat_message(message["role"]):
+                    st.markdown(message["content"])
+
+        with st.chat_message("assistant"):
+            stream = client.chat.completions.create(
+                model=st.session_state["openai_model"],
+                messages=[
+                    {"role": m["role"], "content": m["content"]}
+                    for m in st.session_state.messages
+                ],
+                stream=True,
+            )
+            response = st.write_stream(stream)
+        st.session_state.messages.append({"role": "assistant", "content": response})
+
+    if ai_prediction not in st.session_state:
+        st.button("Ask AI for 4 team acca", on_click=ai_prediction)
+
 
 
 def home_wins_history_ui():
@@ -256,7 +296,7 @@ def upcoming_draws_ui():
 
 
     dataframe = dataframe[dataframe['Draw odd'] < 3.2]
-    dataframe = dataframe[dataframe['Away odd'] < 3.6]
+    dataframe = dataframe[dataframe['Away odd'] < 3.5]
     dataframe = dataframe[dataframe['Home odd'] < 3.2]
 
 
@@ -474,6 +514,6 @@ home_wins_history_page = st.Page(home_wins_history_ui, title="Home wins history"
 draws_page = st.Page(upcoming_draws_ui, title="Draws")
 draw_history_page = st.Page(draws_history_ui, title="Draw history")
 playground_page = st.Page(playground_ui, title="Playground")
-pages = [home_wins_page, home_wins_history_page, draws_page, draw_history_page, playground_page]
+pages = [home_wins_page, home_wins_history_page, draws_page]
 pg = st.navigation(pages)
 pg.run()
