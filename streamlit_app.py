@@ -100,8 +100,8 @@ def upcoming_home_wins_ui():
 
     @st.dialog("Info", width="large")
     def ai_prediction():
-        # client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-        client = OpenAI(api_key=OPENAI_API_KEY)
+        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+        # client = OpenAI(api_key=OPENAI_API_KEY)
 
         if "openai_model" not in st.session_state:
             st.session_state["openai_model"] = "gpt-4o-mini"
