@@ -5,14 +5,10 @@ import json
 from openai import OpenAI
 from datetime import date
 import streamlit as st
-from dotenv import load_dotenv
 from datetime import datetime, timezone
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.metric_cards import style_metric_cards
 import plotly.express as px
-
-load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
 
