@@ -102,7 +102,7 @@ def upcoming_home_wins_ui():
         if "openai_model" not in st.session_state:
             st.session_state["openai_model"] = "gpt-4o-mini"
 
-        question = f"Can you analyse this table of matches? Take everything into account. Also go and get information on each team such as known injuries or suspensions to key players. Take everything into consideration and give me the top 4 most likely teams to win at home with the best return on investment and why. {dataframe}"
+        question = f"Can you analyse this table of matches? Take everything into account and extra knowledge you might know of each team. Get information on each team such as known injuries or suspensions to key players and when they last played their last match and if it was away from home and a far distance to travel which would suggest they would be tired. Take everything into consideration and give me a detailed report on the top 10 most likely matches to win at home including travel distance for the home team in their last match and any known injuries or suspensions, and a summary of the top 4 most likely matches to win at home with the best return on investment. {dataframe}"
 
         if "messages" not in st.session_state:
             st.session_state.messages = []
