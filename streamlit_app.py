@@ -50,6 +50,8 @@ def upcoming_home_wins_ui():
     if info_dialog not in st.session_state:
         st.button("How it works", on_click=info_dialog)
 
+    if ai_prediction not in st.session_state:
+        st.button("Ask AI for 4 team acca", on_click=ai_prediction)
 
     st.markdown("---")
     day = date.today()
@@ -124,10 +126,6 @@ def upcoming_home_wins_ui():
             )
             response = st.write_stream(stream)
         st.session_state.messages.append({"role": "assistant", "content": response})
-
-    if ai_prediction not in st.session_state:
-        st.button("Ask AI for 4 team acca", on_click=ai_prediction)
-
 
 
 def home_wins_history_ui():
