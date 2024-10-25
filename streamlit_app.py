@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 import os
 import json
-from openai import OpenAI
 from datetime import date
 import streamlit as st
 from datetime import datetime, timezone
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.metric_cards import style_metric_cards
+from streamlit_extras.buy_me_a_coffee import button
 import plotly.express as px
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
@@ -102,6 +102,8 @@ def upcoming_home_wins_ui():
     filtered_df.sort_values(by='Date', ascending=True, inplace=True)
 
     st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
+
+    button(username="brunop", floating=False, width=221)
 
 
 
