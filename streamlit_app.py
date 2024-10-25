@@ -50,6 +50,16 @@ def upcoming_home_wins_ui():
     if info_dialog not in st.session_state:
         st.button("How it works", on_click=info_dialog)
 
+    with open("json/ai/openai_response.json", "r") as file:
+        ai_response = json.load(file)
+
+    @st.dialog("AI Prediction", width="large")
+    def ai_dialog():
+        st.write(ai_response)
+
+    if ai_dialog not in st.session_state:
+        st.button("AI Report and 4 team acca", on_click=ai_dialog)
+
     st.markdown("---")
     day = date.today()
     dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
@@ -92,40 +102,6 @@ def upcoming_home_wins_ui():
     filtered_df.sort_values(by='Date', ascending=True, inplace=True)
 
     st.dataframe(filtered_df, use_container_width=True, height=600, hide_index=True)
-
-    @st.dialog("AI Predictions", width="large")
-    def ai_prediction():
-        client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-        # client = OpenAI(api_key=OPENAI_API_KEY)
-
-        if "openai_model" not in st.session_state:
-            st.session_state["openai_model"] = "gpt-4o-mini"
-
-        question = f"Can you analyse this table of matches? Take everything into account and extra knowledge you might know of each team. Get information on each team such as known injuries or suspensions to key players and when they last played their last match and if it was away from home and a far distance to travel which would suggest they would be tired. Take everything into consideration and give me a detailed report on the top 10 most likely matches to win at home including travel distance for the home team in their last match and any known injuries or suspensions, and a summary of the top 4 most likely matches to win at home with the best return on investment. {dataframe}"
-
-        if "messages" not in st.session_state:
-            st.session_state.messages = []
-            st.session_state.messages.append({"role": "user", "content": question})
-
-        for message in st.session_state.messages:
-            if message["role"] == "assistant":
-                with st.chat_message(message["role"]):
-                    st.markdown(message["content"])
-
-        with st.chat_message("assistant"):
-            stream = client.chat.completions.create(
-                model=st.session_state["openai_model"],
-                messages=[
-                    {"role": m["role"], "content": m["content"]}
-                    for m in st.session_state.messages
-                ],
-                stream=True,
-            )
-            response = st.write_stream(stream)
-        st.session_state.messages.append({"role": "assistant", "content": response})
-
-    if ai_prediction not in st.session_state:
-        st.button("Ask AI for 4 team acca", on_click=ai_prediction)
 
 
 
