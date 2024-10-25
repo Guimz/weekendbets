@@ -38,11 +38,13 @@ def upcoming_home_wins_ui():
 
     @st.dialog("Info", width="large")
     def info_dialog():
-        st.write("This page shows upcoming home teams that are favourites to win, based on the odds from various bookmakers. The idea behind this is that we do the homework for you, so you don't have to. "
-                "The categories are based on historical data that we have narrowed down certain type of matches that have occured in the past and the % each of those scenarios have won. "
-                "This ensures that by selecting games that fall into these categories, you are more likely to find value in the bets you make. As we move forward, we will be adding more details to each match to show "
-                "league positions, form, attacking and defensive strength of the teams, all of which will have a score and based on this, we will be able to show you which fixtures have the higher chance of winning."
-                "This is a work in progress but we hope you find this useful even as it is and continues to grow.")
+        st.write("We do the homework for you, so you don't have to. We will show you a table of the home teams that are favourite to win at home along with lots of extra information for that match to make your decision easier. "
+                "You can use the 'Home wins history' page to see the %s of wins for each category (Gold, Silver, Bronze).")
+
+        st.write("I know this shows low odds, but adding them to an accumulator really helps. AI recommends 4 teams to get the best return on investments. "
+                "If you were to bet the same amount every week through out the year, you should be winning more than losing and that is the whole point of this.")
+        
+        st.write("It isn't about making lots of money quickly, but rather to make money and not gamble it away. However, do note that any bets are at your own risk and they do go wrong.")
         
         st.write("You can filter the below table by date, league, category and more to find the matches that you are interested in. This list below will only ever show the upcoming favourite home wins for the next 8 days."
                  "If you want to see the history of home wins, you can go to the 'Home wins history' page.")
