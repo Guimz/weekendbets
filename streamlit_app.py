@@ -4,13 +4,33 @@ import os
 import json
 from datetime import date
 import streamlit as st
-from datetime import datetime, timezone
+from boto3 import client
+from datetime import datetime, timezone, timedelta
 from streamlit_extras.dataframe_explorer import dataframe_explorer
 from streamlit_extras.metric_cards import style_metric_cards
 from streamlit_extras.buy_me_a_coffee import button
 import plotly.express as px
 
 now_date = datetime.now(timezone.utc)  # Set now_date to UTC
+
+today = datetime.now().date()
+
+start_day = datetime(2018, 1, 1)
+end_date = today + timedelta(days=8)
+
+fixtures_start_date = datetime.combine(start_day, datetime.min.time())
+fixtures_end_date = datetime.combine(end_date, datetime.min.time())
+
+fixtures_date_range = [fixtures_start_date + timedelta(days=x) for x in range((fixtures_end_date-fixtures_start_date).days + 1)]
+
+BUCKET = 'weekendbets'
+FILE_TO_READ_PREFIX = 'json/transformed/fixtures_with_odds/fixture_with_odds_'
+
+client = client('s3',
+                aws_access_key_id = AWS_ACCESS_KEY,
+                aws_secret_access_key = AWS_SECRET_ACCESS_KEY
+                )
+
 
 def result_colour(val):
     color = '#D7EED7' if val == 'H' else '#FFCCCB'
@@ -19,13 +39,16 @@ def result_colour(val):
 @st.cache_data
 def import_json_files_as_dataframe(folder_path, day):
     dataframes = []
-    for filename in os.listdir(folder_path):
-        if filename.endswith(".json"):
-            with open(os.path.join(folder_path, filename), 'r') as f:
-                data = json.load(f)
-                df = pd.DataFrame(data)
-                dataframes.append(df)
-    
+    for date in fixtures_date_range:
+        file_date = date.strftime('%Y-%m-%d')
+
+        try:
+            result = client.get_object(Bucket=BUCKET, Key=FILE_TO_READ_PREFIX+file_date+'.json')
+            data = pd.read_json(result['Body'], convert_axes=False)
+            dataframes.append(data)
+        except Exception as e:
+            print(f"Error reading file for date {file_date}: {e}")
+
     dataframe = pd.concat(dataframes, ignore_index=True)
     leagues_df = pd.read_csv('leagues.csv')
     leagues_df = leagues_df[['league.id', 'country.name']]
