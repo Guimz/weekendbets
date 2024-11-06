@@ -27,8 +27,8 @@ BUCKET = 'weekendbets'
 FILE_TO_READ_PREFIX = 'json/transformed/fixtures_with_odds/fixture_with_odds_'
 
 client = client('s3',
-                aws_access_key_id = AWS_ACCESS_KEY,
-                aws_secret_access_key = AWS_SECRET_ACCESS_KEY
+                aws_access_key_id = st.secrets['AWS_ACCESS_KEY'],
+                aws_secret_access_key = st.secrets['AWS_SECRET_ACCESS_KEY']
                 )
 
 
