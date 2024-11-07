@@ -137,7 +137,7 @@ def home_wins_history_ui():
     st.header("Home wins history")
     
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
@@ -281,7 +281,7 @@ def upcoming_draws_ui():
     st.header("Upcoming Draws")
 
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
@@ -319,7 +319,7 @@ def draws_history_ui():
     st.header("Draws history")
     
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
@@ -458,7 +458,7 @@ def playground_ui():
     st.header("Playground")
     
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
