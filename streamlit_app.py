@@ -37,7 +37,7 @@ def result_colour(val):
     return f"color: {color}"
 
 @st.cache_data
-def import_json_files_as_dataframe(folder_path, day):
+def import_json_files_as_dataframe(day):
     dataframes = []
     for date in fixtures_date_range:
         file_date = date.strftime('%Y-%m-%d')
@@ -50,7 +50,8 @@ def import_json_files_as_dataframe(folder_path, day):
             print(f"Error reading file for date {file_date}: {e}")
 
     dataframe = pd.concat(dataframes, ignore_index=True)
-    leagues_df = pd.read_csv('leagues.csv')
+    leagues = client.get_object(Bucket=BUCKET, Key='leagues.csv')
+    leagues_df = pd.read_csv(leagues['Body'])
     leagues_df = leagues_df[['league.id', 'country.name']]
     leagues_df = leagues_df.rename(columns={'league.id': 'League id', 'country.name': 'Country'})
     dataframe = dataframe.merge(leagues_df, on='League id', how='left')
@@ -87,7 +88,7 @@ def upcoming_home_wins_ui():
 
     st.markdown("---")
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
