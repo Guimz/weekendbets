@@ -76,15 +76,15 @@ def upcoming_home_wins_ui():
     if info_dialog not in st.session_state:
         st.button("How it works", on_click=info_dialog)
 
-    with open("json/ai/openai_response.json", "r") as file:
-        ai_response = json.load(file)
+    # with open("json/ai/openai_response.json", "r") as file:
+    #     ai_response = json.load(file)
 
-    @st.dialog("AI Prediction", width="large")
-    def ai_dialog():
-        st.write(ai_response)
+    # @st.dialog("AI Prediction", width="large")
+    # def ai_dialog():
+    #     st.write(ai_response)
 
-    if ai_dialog not in st.session_state:
-        st.button("AI Report and 4 team acca", on_click=ai_dialog)
+    # if ai_dialog not in st.session_state:
+    #     st.button("AI Report and 4 team acca", on_click=ai_dialog)
 
     st.markdown("---")
     day = date.today()
