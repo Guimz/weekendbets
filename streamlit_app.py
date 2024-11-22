@@ -458,7 +458,7 @@ def upcoming_over_2_5_ui():
     st.header("Upcoming Over 2.5 goals")
     
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
@@ -504,7 +504,7 @@ def over_2_5_history_ui():
     st.header("Over 2.5 goals history")
     
     day = date.today()
-    dataframe = import_json_files_as_dataframe('json/transformed/fixtures_with_odds', day)
+    dataframe = import_json_files_as_dataframe(day)
     dataframe['Played'] = np.where(dataframe['Home goals'].isnull(), 0, 1)
 
     dataframe['Date'] = pd.to_datetime(dataframe['Date'])  # Convert 'Date' to datetime
