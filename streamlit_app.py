@@ -642,9 +642,9 @@ def playground_ui():
 st.set_page_config(layout="wide")
 home_wins_page = st.Page(upcoming_home_wins_ui, title="Home wins")
 home_wins_history_page = st.Page(home_wins_history_ui, title="Home wins history")
-draws_page = st.Page(upcoming_draws_ui, title="Upcoming Draws WIP")
+draws_page = st.Page(upcoming_draws_ui, title="Draws (WIP)")
 draw_history_page = st.Page(draws_history_ui, title="Draw history")
-upcoming_over_2_5_page = st.Page(upcoming_over_2_5_ui, title="Upcoming Over 2.5 WIP")
+upcoming_over_2_5_page = st.Page(upcoming_over_2_5_ui, title="Over 2.5 (WIP)")
 over_2_5_history_page = st.Page(over_2_5_history_ui, title="Over 2.5 history")
 playground_page = st.Page(playground_ui, title="Playground")
 pages = [home_wins_page, home_wins_history_page, draws_page, upcoming_over_2_5_page]
