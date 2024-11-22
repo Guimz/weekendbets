@@ -489,7 +489,7 @@ def upcoming_over_2_5_ui():
 
     dataframe['Result'] = np.where(dataframe['Home goals'] > dataframe['Away goals'], 'H', np.where(dataframe['Home goals'] < dataframe['Away goals'], 'A', 'D'))
 
-    dataframe = dataframe[['Date', 'Home team', 'Away team', 'League', 'Country', 'Season', 'Expected total goals', 'Expected home goals', 'Expected away goals', 'Total goals', 'Home goals', 'Away goals']]
+    dataframe = dataframe[['Date', 'Home team', 'Away team', 'League', 'Country', 'Season', 'Expected total goals', 'Expected home goals', 'Expected away goals']]
 
 
     filtered_df = dataframe_explorer(dataframe, case=False)
