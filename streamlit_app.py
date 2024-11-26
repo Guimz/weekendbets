@@ -101,21 +101,18 @@ def upcoming_home_wins_ui():
     dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
 
 
-    dataframe = dataframe[dataframe['Draw odd'] >= 5]  # filter out fixtures with a draw odd of below 5
-    dataframe = dataframe[dataframe['Away odd'] > 8]  # filter out fixtures with a away odd of below 8
-    dataframe = dataframe[dataframe['Home odd'] < 1.3]  # filter out fixtures with a home odd of above 1.3
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
 
     categories = ['Gold', 'Silver', 'Bronze']
     conditions = [
-        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 10)),
-        ((dataframe['Draw odd'] >= 6) & (dataframe['Home odd'] < 1.25) & (dataframe['Away odd'] > 9)),
-        ((dataframe['Draw odd'] >= 5) & (dataframe['Home odd'] < 1.3) & (dataframe['Away odd'] > 8))]
-
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.5) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.8)),
+        ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.22) & (dataframe['Away odd'] > 10))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
-    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
-    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+    dataframe = dataframe[dataframe['Category'] != 'other']
 
     dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
 
@@ -149,21 +146,18 @@ def home_wins_history_ui():
     dataframe['Draw odd'] = pd.to_numeric(dataframe['Draw odd'])
     dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
 
-    dataframe = dataframe[dataframe['Draw odd'] >= 5]  # filter out fixtures with a draw odd of below 5
-    dataframe = dataframe[dataframe['Away odd'] > 8]  # filter out fixtures with a away odd of below 8
-    dataframe = dataframe[dataframe['Home odd'] < 1.3]  # filter out fixtures with a home odd of above 1.3
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
 
     categories = ['Gold', 'Silver', 'Bronze']
     conditions = [
-        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 10)),
-        ((dataframe['Draw odd'] >= 6) & (dataframe['Home odd'] < 1.25) & (dataframe['Away odd'] > 9)),
-        ((dataframe['Draw odd'] >= 5) & (dataframe['Home odd'] < 1.3) & (dataframe['Away odd'] > 8))]
-
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.5) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.8)),
+        ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.22) & (dataframe['Away odd'] > 10))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
-    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
-    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+    dataframe = dataframe[dataframe['Category'] != 'other']
 
     dataframe = dataframe.rename(columns={'Home rank': 'H Pos', 'Away rank': 'A Pos', 'Home points': 'H Pts', 'Away points': 'A Pts', 'Home team form': 'H Form', 'Away team form': 'A Form'})
 
@@ -602,11 +596,21 @@ def playground_ui():
     dataframe['Draw odd'] = pd.to_numeric(dataframe['Draw odd'])
     dataframe['Away odd'] = pd.to_numeric(dataframe['Away odd'])
 
+    dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
+    dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
+
+    dataframe['Expected total goals'] = dataframe['Expected home goals'] + dataframe['Expected away goals']
+    dataframe['Expected goal difference'] = np.abs(dataframe['Expected home goals'] - dataframe['Expected away goals'])
+    
+    dataframe['Total goals'] = dataframe['Home goals'] + dataframe['Away goals']
+
+    dataframe['Over 2.5'] = np.where(dataframe['Total goals'] > 2.5, 1, 0)
+
     categories = ['Gold', 'Silver', 'Bronze']
     conditions = [
-        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 10)),
-        ((dataframe['Draw odd'] >= 6) & (dataframe['Home odd'] < 1.25) & (dataframe['Away odd'] > 9)),
-        ((dataframe['Draw odd'] >= 5) & (dataframe['Home odd'] < 1.3) & (dataframe['Away odd'] > 8))]
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.5) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.8)),
+        ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.22) & (dataframe['Away odd'] > 10))]
 
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
