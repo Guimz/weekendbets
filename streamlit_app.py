@@ -180,10 +180,22 @@ def home_wins_history_ui():
     number_of_bronze_matches_won = len(filtered_df[(filtered_df['Category'] == 'Bronze') & (filtered_df['Result'] == 'H')])
 
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Total home favourites", f"{number_of_matches_won / number_of_matches * 100:.2f}%", delta=f"{number_of_matches_won} of {number_of_matches}")
-    col2.metric("Total Gold matches", f"{number_of_gold_matches_won / number_of_gold_matches * 100:.2f}%",f"{number_of_gold_matches_won} of {number_of_gold_matches}")
-    col3.metric("Total Silver matches", f"{number_of_silver_matches_won / number_of_silver_matches * 100:.2f}%",f"{number_of_silver_matches_won} of {number_of_silver_matches}")
-    col4.metric("Total Bronze matches", f"{number_of_bronze_matches_won / number_of_bronze_matches * 100:.2f}%",f"{number_of_bronze_matches_won} of {number_of_bronze_matches}")
+    if number_of_matches > 0:
+        col1.metric("Total home favourites", f"{number_of_matches_won / number_of_matches * 100:.2f}%", delta=f"{number_of_matches_won} of {number_of_matches}")
+    else:
+        col1.metric("Total home favourites", "0.00%", "0 of 0")
+    if number_of_gold_matches > 0:
+        col2.metric("Total Gold matches", f"{number_of_gold_matches_won / number_of_gold_matches * 100:.2f}%",f"{number_of_gold_matches_won} of {number_of_gold_matches}")
+    else:
+        col2.metric("Total Gold matches", "0.00%", "0 of 0")
+    if number_of_silver_matches > 0:
+        col3.metric("Total Silver matches", f"{number_of_silver_matches_won / number_of_silver_matches * 100:.2f}%", f"{number_of_silver_matches_won} of {number_of_silver_matches}")
+    else:
+        col3.metric("Total Silver matches", "0.00%", "0 of 0")
+    if number_of_bronze_matches > 0:
+        col4.metric("Total Bronze matches", f"{number_of_bronze_matches_won / number_of_bronze_matches * 100:.2f}%",f"{number_of_bronze_matches_won} of {number_of_bronze_matches}")
+    else:
+        col4.metric("Total Bronze matches", "0.00%", "0 of 0")
 
     style_metric_cards()
 
