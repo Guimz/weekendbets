@@ -106,10 +106,10 @@ def upcoming_home_wins_ui():
 
     categories = ['Gold', 'Silver', 'Bronze', 'Higher Odds']
     conditions = [
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.7)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.72)),
         ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
         ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.24) & (dataframe['Away odd'] > 10)),
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.7))]
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.72))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
@@ -152,10 +152,10 @@ def home_wins_history_ui():
 
     categories = ['Gold', 'Silver', 'Bronze', 'Higher Odds']
     conditions = [
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.7)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.72)),
         ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
         ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.24) & (dataframe['Away odd'] > 10)),
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.7))]
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.72))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
