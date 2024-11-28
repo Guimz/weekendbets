@@ -104,11 +104,12 @@ def upcoming_home_wins_ui():
     dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
     dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
 
-    categories = ['Gold', 'Silver', 'Bronze']
+    categories = ['Gold', 'Silver', 'Bronze', 'Higher Odds']
     conditions = [
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.5) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.8)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.7)),
         ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
-        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.22) & (dataframe['Away odd'] > 10))]
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.24) & (dataframe['Away odd'] > 10)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.7))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
@@ -149,11 +150,12 @@ def home_wins_history_ui():
     dataframe['Expected home goals'] = pd.to_numeric(dataframe['Expected home goals']).round(2)
     dataframe['Expected away goals'] = pd.to_numeric(dataframe['Expected away goals']).round(2)
 
-    categories = ['Gold', 'Silver', 'Bronze']
+    categories = ['Gold', 'Silver', 'Bronze', 'Higher Odds']
     conditions = [
-        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.5) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.8)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Home odd'] < 1.4) & (dataframe['Expected home goals'] > 4.06) & (dataframe['Expected away goals'] < 0.7)),
         ((dataframe['Draw odd'] >= 8) & (dataframe['Home odd'] < 1.2) & (dataframe['Away odd'] > 11)),
-        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.22) & (dataframe['Away odd'] > 10))]
+        ((dataframe['Draw odd'] >= 7) & (dataframe['Home odd'] < 1.24) & (dataframe['Away odd'] > 10)),
+        ((dataframe['Draw odd'] >= 4) & (dataframe['Expected home goals'] > 4) & (dataframe['Expected away goals'] < 0.7))]
 
     dataframe['Category'] = np.select(conditions, categories, default='other')
 
@@ -173,13 +175,15 @@ def home_wins_history_ui():
     number_of_gold_matches = len(filtered_df[filtered_df['Category'] == 'Gold'])
     number_of_silver_matches = len(filtered_df[filtered_df['Category'] == 'Silver'])
     number_of_bronze_matches = len(filtered_df[filtered_df['Category'] == 'Bronze'])
+    number_of_higher_odds_matches = len(filtered_df[filtered_df['Category'] == 'Higher Odds'])
     
     number_of_matches_won = len(filtered_df[filtered_df['Result'] == 'H'])
     number_of_gold_matches_won = len(filtered_df[(filtered_df['Category'] == 'Gold') & (filtered_df['Result'] == 'H')])
     number_of_silver_matches_won = len(filtered_df[(filtered_df['Category'] == 'Silver') & (filtered_df['Result'] == 'H')])
     number_of_bronze_matches_won = len(filtered_df[(filtered_df['Category'] == 'Bronze') & (filtered_df['Result'] == 'H')])
+    number_of_higher_odds_matches_won = len(filtered_df[(filtered_df['Category'] == 'Higher Odds') & (filtered_df['Result'] == 'H')])
 
-    col1, col2, col3, col4 = st.columns(4)
+    col1, col2, col3, col4, col5 = st.columns(5)
     if number_of_matches > 0:
         col1.metric("Total home favourites", f"{number_of_matches_won / number_of_matches * 100:.2f}%", delta=f"{number_of_matches_won} of {number_of_matches}")
     else:
@@ -196,6 +200,10 @@ def home_wins_history_ui():
         col4.metric("Total Bronze matches", f"{number_of_bronze_matches_won / number_of_bronze_matches * 100:.2f}%",f"{number_of_bronze_matches_won} of {number_of_bronze_matches}")
     else:
         col4.metric("Total Bronze matches", "0.00%", "0 of 0")
+    if number_of_higher_odds_matches > 0:
+        col5.metric("Total Higher Odds matches", f"{number_of_higher_odds_matches_won / number_of_higher_odds_matches * 100:.2f}%",f"{number_of_higher_odds_matches_won} of {number_of_higher_odds_matches}")
+    else:
+        col5.metric("Total Higher Odds matches", "0.00%", "0 of 0")
 
     style_metric_cards()
 
